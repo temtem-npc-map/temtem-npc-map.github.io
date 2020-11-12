@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#tray').css('display','none');
+  $('#tray').toggle();
 });
 
 $(document).on('click','#menu',function(e){
