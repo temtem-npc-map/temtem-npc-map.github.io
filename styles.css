@@ -2,6 +2,7 @@
   --dark-blue: #002245;
   --darker-blue: #000e22;
   --purple: #392643;
+  --dark-purple: #291b31;
   --cream: #fdf3cf;
   --orange: #ffb544;
 }
@@ -131,7 +132,7 @@ label {
 .filter-options ul li:hover,
 .filter-options ul li:active,
 .filter-options ul li:focus {
-  background-color: #291b31;
+  background-color: var(--dark-purple);
 }
 
 .filter-options label {
@@ -158,7 +159,7 @@ label {
     font-family: "Font Awesome 5 Free";
     font-size: 1em;
     text-align: center;
-    color: #291b31;
+    color: var(--dark-purple);
     border: 1px solid var(--orange);
     line-height: 1.2;
     margin-left: -1.5em;
@@ -190,9 +191,9 @@ label {
 }
 
 #map-controls::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    border-radius: 10px;
-  background-color: #291b31;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+  background-color: var(--dark-purple);
 }
 
 #map-controls::-webkit-scrollbar-thumb {
@@ -215,7 +216,7 @@ label {
 #results li:hover,
 #results li:active,
 #results li:focus {
-  background-color: #291b31;
+  background-color: var(--dark-purple);
 }
 
 #results li a {
@@ -243,7 +244,7 @@ label {
     background-color: var(--purple);
     padding: 0.2em 0.5em;
     margin: 0;
-    color: var(--cream);;
+    color: var(--cream);
     font-size: 1.5em;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 600;
@@ -415,4 +416,8 @@ body .area-popup .leaflet-popup-close-button {
   text-shadow: 0 0 0 rgba(0, 0, 0, 0);
   color: var(--purple);
   margin-left: 0.2em;
+}
+
+.dark-bar {
+  background-color: var(--dark-purple);
 }
