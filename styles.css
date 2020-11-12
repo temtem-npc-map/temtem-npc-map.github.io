@@ -303,6 +303,27 @@ body .area-popup .leaflet-popup-close-button {
   position: relative;
 }
 
+.tile {
+  padding: 0em 0em 1em;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.tile:hover,
+.tile:focus,
+.tile:active {
+  background-color: var(--darker-blue);
+}
+
+.tile:hover h3::after,
+.tile:focus h3::after,
+.tile:active h3::after {
+  margin-right: 0em;
+}
+
 .tile .img-container img {
   width: 100%;
 }
@@ -317,4 +338,23 @@ body .area-popup .leaflet-popup-close-button {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.tile h3 {
+    text-transform: uppercase;
+    font-family: "Open sans condensed", sans-serif;
+    font-size: 1.5em;
+    margin: 0.3em 1em 0;
+}
+
+.tile h3::after {
+  content: 'chevron_right';
+  font-family: "Material Icons", sans-serif;
+  -moz-font-feature-settings: 'liga';
+  text-transform: lowercase;
+  text-align: right;
+  float: right;
+  font-size: 1.2em;
+  margin-right: -0.4em;
+  transition: all 0.2s;
 }
