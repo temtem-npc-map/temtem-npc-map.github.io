@@ -40,10 +40,9 @@
     <script type="text/javascript">
       $(function(){
         $("#header").load("header.html", 
-          /*function() {
-            $("#horiz-portfolio").addClass("selected");
-            $("#vert-portfolio").addClass("selected")
-          }*/
+          function() {
+            $('#tray').toggle();
+          }
         );
         $("#footer").load("footer.html"); 
       });
