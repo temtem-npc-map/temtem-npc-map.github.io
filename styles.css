@@ -297,13 +297,13 @@ body .area-popup .leaflet-popup-close-button {
   display: none;
 }
 
-.tile img {
+.tile .img-container {
   max-width: 100%;
   border-radius: 4px;
   position: relative;
 }
 
-.tile img.unavailable:after {
+.tile .img-container.unavailable:after {
   content: 'Coming Soon';
   display: inline-block;
   position: absolute;
