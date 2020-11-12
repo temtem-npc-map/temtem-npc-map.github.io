@@ -37,6 +37,40 @@ $(document).ready(function() {
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   
+  var agustin = L.marker([638.13, 206.97], {title: 'agustin', icon: npcGenericIcon}).bindTooltip('Agustin', {className: 'tooltip'}).addTo(map);
+  agustin._icon.classList.add('agustin');
+  markers.push(agustin);
+  var denizanlongshorewoman = L.marker([650, 235.09], {title: 'denizanlongshorewoman', icon: npcGenericIcon}).bindTooltip('Denizan Longshorewoman', {className: 'tooltip'}).addTo(map);
+  denizanlongshorewoman._icon.classList.add('denizanlongshorewoman');
+  markers.push(denizanlongshorewoman);
+  var denizanlongshoreman = L.marker([648.31, 233.53], {title: 'denizanlongshoreman', icon: npcGenericIcon}).bindTooltip('Denizan Longshoreman', {className: 'tooltip'}).addTo(map);
+  denizanlongshoreman._icon.classList.add('denizanlongshoreman');
+  markers.push(denizanlongshoreman);
+  var denizanforeman = L.marker([650.94, 237.53], {title: 'denizanforeman', icon: npcGenericIcon}).bindTooltip('Denizan Foreman', {className: 'tooltip'}).addTo(map);
+  denizanforeman._icon.classList.add('denizanforeman');
+  markers.push(denizanforeman);
+  var terminalemployee = L.marker([648, 258.83], {title: 'terminalemployee', icon: npcGenericIcon}).bindTooltip('Terminal Employee', {className: 'tooltip'}).addTo(map);
+  terminalemployee._icon.classList.add('terminalemployee');
+  markers.push(terminalemployee);
+  var travelagency = L.marker([623.63, 280.58], {title: 'travelagency', icon: npcGenericIcon}).bindTooltip('Travel Agency', {className: 'tooltip'}).addTo(map);
+  travelagency._icon.classList.add('travelagency');
+  markers.push(travelagency);
+  var luca = L.marker([657.38, 289.58], {title: 'luca', icon: npcMovingIcon}).bindTooltip('Luca', {className: 'tooltip'}).addTo(map);
+  luca._icon.classList.add('luca');
+  luca._icon.classList.add('moving');
+  markers.push(luca);
+  var sleepyarissolan = L.marker([618.81, 290.51], {title: 'sleepyarissolan', icon: npcMovingIcon}).bindTooltip('Sleepy Arissolan', {className: 'tooltip'}).addTo(map);
+  sleepyarissolan._icon.classList.add('sleepyarissolan');
+  sleepyarissolan._icon.classList.add('moving');
+  markers.push(sleepyarissolan);
+  var literarysnob = L.marker([628.06, 299.45], {title: 'literarysnob', icon: npcGenericIcon}).bindTooltip('Literary Snob', {className: 'tooltip'}).addTo(map);
+  literarysnob._icon.classList.add('literarysnob');
+  markers.push(literarysnob);
+  var strollingarrisolan = L.marker([633.63, 304.13], {title: 'strollingarrisolan', icon: npcMovingIcon}).bindTooltip('Strolling Arrisolan', {className: 'tooltip'}).addTo(map);
+  strollingarrisolan._icon.classList.add('strollingarrisolan');
+  strollingarrisolan._icon.classList.add('moving');
+  markers.push(strollingarrisolan);
+  
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
   //var name = L.marker([00, 00], {title: name, icon: npcGenericIcon}).bindTooltip("name", {className: 'tooltip'}).addTo(map);
