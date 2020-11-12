@@ -422,6 +422,6 @@ body .area-popup .leaflet-popup-close-button {
   background-color: var(--dark-purple);
 }
 
-#contribute .column.span3:nth-child(n + 1) {
+#contribute .column.span3:nth-child(n + 2) {
   text-align: center;
 }
