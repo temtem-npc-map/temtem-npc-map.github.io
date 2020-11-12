@@ -303,6 +303,10 @@ body .area-popup .leaflet-popup-close-button {
   position: relative;
 }
 
+.tile .img-container img {
+  width: 100%;
+}
+
 .tile .img-container.unavailable:after {
   content: 'Coming Soon';
   display: inline-block;
