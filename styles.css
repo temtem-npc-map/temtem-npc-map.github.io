@@ -404,5 +404,10 @@ body .area-popup .leaflet-popup-close-button {
   text-align: center;
   font-size: 1.4em;
   cursor: pointer;
+}
+
+.button:hover,
+.button:active,
+.button: focus {
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
