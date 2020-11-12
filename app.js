@@ -2,6 +2,8 @@ $(document).ready(function() {
   $('#tray').toggle();
 });
 
+$('#tray').toggle();
+
 $(document).on('click','#menu',function(e){
   console.log('this ran');
   if ($('#menu').attr('aria-checked') === 'true') {
