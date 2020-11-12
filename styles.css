@@ -325,7 +325,7 @@ body .area-popup .leaflet-popup-close-button {
 .tile:hover img,
 .tile:focus img,
 .tile:active img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .tile:hover h3::after,
