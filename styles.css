@@ -35,11 +35,6 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-h3 {
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-
 #logo {
   display: inline-block;
   vertical-align: middle;
@@ -74,9 +69,10 @@ body.map-page {
   overflow: hidden;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 #map-container, #map-kisiwa {
