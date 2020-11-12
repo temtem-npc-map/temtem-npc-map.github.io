@@ -406,7 +406,8 @@ body .area-popup .leaflet-popup-close-button {
   text-align: center;
   font-size: 1.4em;
   cursor: pointer;
-  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
   transition: all 0.2s;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
@@ -427,4 +428,8 @@ body .area-popup .leaflet-popup-close-button {
 
 #contribute .column.span3:nth-child(n + 2) {
   text-align: center;
+}
+
+#contribute .column.span3:nth-child(n + 2) p {
+  font-size: 0.8em;
 }
