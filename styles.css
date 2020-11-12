@@ -314,6 +314,10 @@ body .area-popup .leaflet-popup-close-button {
   margin-bottom: 1em;
 }
 
+#all-maps a {
+  text-decoration: none;
+}
+
 .tile {
   padding: 0em 0em 1em;
   box-sizing: border-box;
