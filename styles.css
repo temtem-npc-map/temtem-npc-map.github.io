@@ -395,4 +395,12 @@ body .area-popup .leaflet-popup-close-button {
   background-image: url('images/btn.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding: 0.2em 1em;
+  font-family: "Open sans condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  min-width: 100px;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.4em;
 }
