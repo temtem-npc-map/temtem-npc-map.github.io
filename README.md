@@ -112,10 +112,8 @@ The developer(s) will take it from here to review your contribution, and hopeful
 - [X] Add search feature
 - [X] Add role filters (vendors)
 - [X] Add custom icons for notable NPCs
-- [ ] Restructure to prepare for future pages featuring maps of other islands
-- [ ] Change color of vendor icons
-- [ ] Consider how to handle NPCs whose locations change with the storyline
-- [ ] Add fightable info
+- [X] Restructure to prepare for future pages featuring maps of other islands
+- [X] Consider how to handle NPCs whose locations change with the storyline
+- [ ] Add fightable info for existing NPCs
 - [ ] Replace spreadsheet with a Google Form
-- [ ] Change to tiles, see if this fixes lag on zoomed views?
 - [ ] Add alt text everywhere
