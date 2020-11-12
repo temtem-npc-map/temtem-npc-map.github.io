@@ -371,11 +371,12 @@ body .area-popup .leaflet-popup-close-button {
 }
 
 .tile h3, a .tile h3 {
-    text-transform: uppercase;
-    font-family: "Open sans condensed", sans-serif;
-    font-size: 1.5em;
-    margin: 0.3em 1em 0;
-    text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open sans condensed", sans-serif;
+  font-size: 1.5em;
+  margin: 0.3em 1em 0;
+  text-decoration: none;
+  color: #fff;
 }
 
 .tile h3::after {
