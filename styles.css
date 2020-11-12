@@ -31,7 +31,7 @@ header h1 {
   float: right;
   position: relative;
   background-color: var(--purple);
-  z-index: -1;
+  z-index: 999;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   padding: 1em;
 }
@@ -54,6 +54,9 @@ header h1 {
 #tray ul li a {
   color: var(--cream);
   text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 
 h2 {
