@@ -445,3 +445,9 @@ body .area-popup .leaflet-popup-close-button {
 #footer a:focus {
   text-decoration: none;
 }
+
+#footer p {
+    font-size: 0.8em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
