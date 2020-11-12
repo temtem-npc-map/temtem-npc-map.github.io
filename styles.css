@@ -321,7 +321,7 @@ body .area-popup .leaflet-popup-close-button {
 .tile:active {
   background-color: var(--darker-blue);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.13);
-  margin-top: -0.5em;
+  margin-top: -0.25em;
 }
 
 .tile:hover img,
