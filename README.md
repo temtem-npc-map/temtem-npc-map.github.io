@@ -117,8 +117,8 @@ The developer(s) will take it from here to review your contribution, and hopeful
 - [X] Created homepage
 - [X] Created page navigation system
 - [X] Wrote script to automate data entry for map (see [here](https://codepen.io/susanpallmann/full/eYzbOyJ))
-- [ ] Replace spreadsheet with a Google Form
+- [X] Replace spreadsheet with a Google Form
+- [X] Create maps for other islands
 - [ ] Add fightable info for existing NPCs
 - [ ] Add alt text everywhere
-- [ ] Create maps for other islands
 - [ ] Move to own github account
