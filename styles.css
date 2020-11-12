@@ -432,4 +432,5 @@ body .area-popup .leaflet-popup-close-button {
 
 #contribute .column.span3:nth-child(n + 2) p {
   font-size: 0.8em;
+  text-align: left;
 }
