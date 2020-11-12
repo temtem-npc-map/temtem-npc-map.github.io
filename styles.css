@@ -298,6 +298,19 @@ body .area-popup .leaflet-popup-close-button {
 }
 
 .tile img {
-    max-width: 100%;
-    border-radius: 4px;
+  max-width: 100%;
+  border-radius: 4px;
+  position: relative;
+}
+
+.tile img.unavailable:after {
+  content: 'Coming Soon';
+  display: inline-block;
+  position: absolute;
+  color: #fff;
+  font-family: "open sans condensed",sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
