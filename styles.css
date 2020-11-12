@@ -26,6 +26,14 @@ header h1 {
   letter-spacing: 0.02em;
 }
 
+h2 {
+  font-size: 2em;
+  color: var(--orange);
+  margin: 0;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+
 #logo {
   display: inline-block;
   vertical-align: middle;
