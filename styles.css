@@ -211,7 +211,7 @@ label {
     height: 18px;
     width: 18px;
     display: inline-block;
-    background-color: #291b31;
+    background-color: var(--dark-red);
     content: "✓";
     font-family: "Font Awesome 5 Free";
     font-size: 1em;
