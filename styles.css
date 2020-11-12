@@ -301,6 +301,9 @@ body .area-popup .leaflet-popup-close-button {
   max-width: 100%;
   border-radius: 4px;
   position: relative;
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 1em;
 }
 
 .tile {
