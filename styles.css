@@ -37,6 +37,20 @@ header h1 {
   box-sizing: border-box;
 }
 
+#tray {
+  width: 100%;
+}
+@media only screen and (min-width: 400px) {
+  
+}
+
+@media only screen and (min-width: 600px) {
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 800px) {
+}
+
 #tray ul {
   list-style: none;
   padding: 0;
