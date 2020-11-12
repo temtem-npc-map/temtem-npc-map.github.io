@@ -11,7 +11,7 @@ $(document).ready(function() {
     });
   
   var bounds = [[0,0], [1000,1000]];
-  var image = L.imageOverlay('images/maps/kisiwa.png', bounds).addTo(map);
+  var image = L.imageOverlay('images/maps/deniz.png', bounds).addTo(map);
   map.fitBounds(bounds);
   
   L.control.mousePosition().addTo(map);
