@@ -321,7 +321,7 @@ body .area-popup .leaflet-popup-close-button {
 .tile:hover h3::after,
 .tile:focus h3::after,
 .tile:active h3::after {
-  margin-right: 0em;
+  margin-right: -0.8em;
 }
 
 .tile .img-container img {
