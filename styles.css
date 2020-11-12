@@ -390,3 +390,9 @@ body .area-popup .leaflet-popup-close-button {
   margin-right: -0.4em;
   transition: all 0.2s;
 }
+
+.button {
+  background-image: url('images/btn.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
