@@ -439,6 +439,13 @@ body .area-popup .leaflet-popup-close-button {
   color: #fff;
 }
 
+.tile h4 {
+  color: #fff;
+  font-family: 'Open sans condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
 .tile h3::after {
   content: 'chevron_right';
   font-family: "Material Icons", sans-serif;
