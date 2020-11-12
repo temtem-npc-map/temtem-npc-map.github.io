@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Information -->
+    <title>Temtem NPC Location Map</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Mobile Sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Responsive Grid -->
+    <link rel="stylesheet" type="text/css" href="discount-bootstrap.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Oswald:wght@700&display=swap" rel="stylesheet">  
+    
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- No-Script Styling -->
+    <noscript><link rel="stylesheet" type="text/css" href="no-script.css"></noscript>
+    
+    <!-- Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin="">
+    </script>
+    <script src="mouse-position.js"></script>
+    
+    <!-- Scripts -->
+    <script src="discount-bootstrap.js"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("#header").load("header.html", 
+          /*function() {
+            $("#horiz-portfolio").addClass("selected");
+            $("#vert-portfolio").addClass("selected")
+          }*/
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <header id="header"></header>
+    <main>
+      <div id="map-container">
+      </div>
+      <div id="map-controls">
+        <form id="unique-controls">
+          <label for="search">Search for an NPC:</label>
+          <br>
+          <input type="text" id="search" name="search" placeholder="Search"></input>
+          <ul id="results">
+          </ul>
+          <label>Filters:</label>
+          <br>
+          <div class="filter-options">
+            <ul>
+              <li><input type="checkbox" id="combat" name="combat" value="combat">
+              <label class="filter-label" for="combat"><img class="marker-small" src="images/icons/npc-combat.png" alt="" />Combat NPC</label><br></li>
+              <li><input type="checkbox" id="moving" name="moving" value="moving">
+              <label class="filter-label" for="moving"><img class="marker-small" src="images/icons/npc-moving.png" alt="" />Moving NPC</label><br></li>
+              <li><input type="checkbox" id="vendor" name="vendor" value="vendor">
+              <label class="filter-label" for="vendor"><img class="marker-small" src="images/icons/npc-vendor.png" alt="" />Vendor</label><br></li>
+              <li><input type="checkbox" id="clothing" name="clothing" value="clothing">
+              <label class="filter-label"  for="clothing"><img class="marker-small" src="images/icons/npc-clothing.png" alt="" />Clothing Vendor</label><br></li>
+              <li><input type="checkbox" id="furniture" name="furniture" value="furniture">
+              <label class="filter-label"  for="furniture"><img class="marker-small" src="images/icons/npc-furniture.png" alt="" />Furniture Vendor</label><br></li>
+              <li><input type="checkbox" id="mail" name="mail" value="mail">
+              <label class="filter-label"  for="mail"><img class="marker-small" src="images/icons/npc-mail.png" alt="" />Post Office Manager</label><br></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
+<!-- magic -->
