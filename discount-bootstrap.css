@@ -155,10 +155,10 @@
 }
 /* Spacing System */
 main .column {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 main .container {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 /* Padding Spacing */
 /* Note that desktop media queries is scaled up slightly (32px) to account for padding */
