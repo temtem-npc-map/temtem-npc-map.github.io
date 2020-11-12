@@ -109,11 +109,16 @@ Now, with all that you gathered, head over to the [editable spreadsheet](https:/
 The developer(s) will take it from here to review your contribution, and hopefully add it to the site soon. Thank you for helping out with this project, it's a big undertaking!
 
 ## Developer To Do
-- [X] Add search feature
-- [X] Add role filters (vendors)
-- [X] Add custom icons for notable NPCs
-- [X] Restructure to prepare for future pages featuring maps of other islands
-- [X] Consider how to handle NPCs whose locations change with the storyline
-- [ ] Add fightable info for existing NPCs
+- [X] Added search feature
+- [X] Added role filters (vendors)
+- [X] Added custom icons for notable NPCs
+- [X] Restructured to prepare for future pages featuring maps of other islands
+- [X] Considered how to handle NPCs whose locations change with the storyline (we're just adding all instances to the map)
+- [X] Created homepage
+- [X] Created page navigation system
+- [X] Wrote script to automate data entry for map (see [here](https://codepen.io/susanpallmann/full/eYzbOyJ))
 - [ ] Replace spreadsheet with a Google Form
+- [ ] Add fightable info for existing NPCs
 - [ ] Add alt text everywhere
+- [ ] Create maps for other islands
+- [ ] Move to own github account
