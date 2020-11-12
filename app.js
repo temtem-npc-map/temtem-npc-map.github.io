@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('#tray').css('display','none');
 });
 
 $(document).on('click','#menu',function(e){
