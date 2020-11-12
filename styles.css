@@ -447,11 +447,13 @@ body .area-popup .leaflet-popup-close-button {
 }
 
 #footer p {
-    font-size: 0.8em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .darker-copyright {
-  background-color: var(--dark-purple)
+  background-color: var(--dark-purple);
+  padding: 1em 0;
+  margin: 0;
 }
