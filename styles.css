@@ -301,7 +301,7 @@ body .area-popup .leaflet-popup-close-button {
   max-width: 100%;
   border-radius: 4px;
   position: relative;
-  height: 220px;
+  height: 170px;
   overflow: hidden;
   margin-bottom: 1em;
 }
@@ -352,7 +352,7 @@ body .area-popup .leaflet-popup-close-button {
   bottom: 0;
   color: rgba(255, 255, 255,0.5);
   line-height: 0;
-  padding-top: 110px;
+  padding-top: 85px;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5em;
