@@ -451,3 +451,7 @@ body .area-popup .leaflet-popup-close-button {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
+
+.darker-copyright {
+  background-color: var(--dark-purple)
+}
