@@ -343,12 +343,17 @@ body .area-popup .leaflet-popup-close-button {
   content: 'Coming Soon';
   display: inline-block;
   position: absolute;
-  color: #fff;
   font-family: "open sans condensed",sans-serif;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  color: rgba(255, 255, 255,0.5);
+  line-height: 0;
+  padding-top: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 
 .tile h3 {
