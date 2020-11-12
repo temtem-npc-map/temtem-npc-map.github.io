@@ -35,12 +35,7 @@ $(document).ready(function() {
   var npcCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-combat.png'});
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
-  var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});
-  
-  var otesha = L.marker([415.6, 611.3], {title:"otesha", icon: npcGenericIcon}).bindTooltip("Otesha", {className: 'tooltip'}).addTo(map);
-  otesha._icon.classList.add("otesha");
-  markers.push(otesha);  
-  
+  var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
