@@ -296,3 +296,8 @@ body .area-popup .leaflet-popup-close-button {
 .leaflet-marker-icon.hidden-icon {
   display: none;
 }
+
+.tile img {
+    max-width: 100%;
+    border-radius: 4px;
+}
