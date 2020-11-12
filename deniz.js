@@ -52,12 +52,12 @@ $(document).ready(function() {
   var terminalemployee = L.marker([648, 258.83], {title: 'terminalemployee', icon: npcGenericIcon}).bindTooltip('Terminal Employee', {className: 'tooltip'}).addTo(map);
   terminalemployee._icon.classList.add('terminalemployee');
   markers.push(terminalemployee);
-  var travelagency = L.marker([623.63, 280.58], {title: 'travelagency', icon: npcGenericIcon}).bindTooltip('Travel Agency', {className: 'tooltip'}).addTo(map);
-  travelagency._icon.classList.add('travelagency');
-  markers.push(travelagency);
+  var travelagent = L.marker([623.63, 280.58], {title: 'travelagent', icon: npcGenericIcon}).bindTooltip('Travel Agent', {className: 'tooltip'}).addTo(map);
+  travelagent._icon.classList.add('travelagent');
+  travelagent._icon.classList.add('moving');
+  markers.push(travelagent);
   var luca = L.marker([657.38, 289.58], {title: 'luca', icon: npcMovingIcon}).bindTooltip('Luca', {className: 'tooltip'}).addTo(map);
   luca._icon.classList.add('luca');
-  luca._icon.classList.add('moving');
   markers.push(luca);
   var sleepyarissolan = L.marker([618.81, 290.51], {title: 'sleepyarissolan', icon: npcMovingIcon}).bindTooltip('Sleepy Arissolan', {className: 'tooltip'}).addTo(map);
   sleepyarissolan._icon.classList.add('sleepyarissolan');
