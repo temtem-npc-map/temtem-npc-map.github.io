@@ -140,7 +140,7 @@ h1, h2, h3 {
   width: 20%;
   height: calc(100vh - 50px);
   overflow-y: scroll;
-  background-color: var(--teal);
+  background-color: var(--dark-teal);
   padding: 1em;
   color: var(#fff);
   box-sizing: border-box;
@@ -233,7 +233,7 @@ label {
 
 #search {
   background-color: var(--dark-teal);
-  border: 2px solid var(--cream);
+  border: 1px solid #fff;
   outline: none;
   border-radius: 5px;
   padding: 0.2em 0.5em;
