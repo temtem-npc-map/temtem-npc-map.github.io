@@ -7,7 +7,7 @@
   --orange: #ffb544;
 }
 
-header {
+.header-container {
   height: 50px;
   background-color: var(--purple);
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
