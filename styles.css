@@ -40,12 +40,15 @@ header h1 {
 #tray {
   width: 100%;
 }
+
 @media only screen and (min-width: 400px) {
   
 }
 
 @media only screen and (min-width: 600px) {
-  max-width: 300px;
+  #tray {
+    max-width: 300px;
+  }
 }
 
 @media only screen and (min-width: 800px) {
