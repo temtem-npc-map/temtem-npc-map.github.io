@@ -27,6 +27,35 @@ header h1 {
   letter-spacing: 0.02em;
 }
 
+#tray {
+  float: right;
+  position: relative;
+  background-color: var(--purple);
+  z-index: -1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+}
+
+#tray ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#tray li {
+  padding: 0.2em 0;
+  border-bottom: 1px solid rgba(255, 255, 255,0.05);
+}
+
+#tray li:hover, #tray li:active, #tray li:focus {
+  background-color: var(--dark-purple);
+}
+
+#tray ul li a {
+  color: var(--cream);
+  text-decoration: none;
+}
+
 h2 {
   font-size: 2em;
   color: var(--orange);
