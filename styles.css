@@ -28,8 +28,8 @@ header h1 {
 }
 
 #tray {
-  float: right;
-  position: relative;
+  right: 0;
+  position: absolute;
   background-color: var(--purple);
   z-index: 999;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
