@@ -4,56 +4,56 @@ Temtem NPC map is a fan-made map for the game [Temtem](https://crema.gg/games/te
 This site is in no way an official Temtem or Crema website. All images, styles, and design choices are inspired by and/or belong to Crema.
 
 ## Links
-* [Live Website](https://susanpallmann.github.io/temtem-npc-map/)
+* [Live Website](https://temtem-npc-map.github.io/map/)
 * [Editable Spreadsheet](https://docs.google.com/spreadsheets/d/1tjUlRZD72A1JmnQWcZm6yOo3EEuqh2xkVtv_SIXWFOg/edit?usp=sharing)
 
 ## Notice
 Currently, this website only displays Kisiwa. Other islands still need to be mapped and set up with their own coordinate systems. The idea is to get the functionality working for this island, and then start filling in the others. This website is maintained in its entirety by one person, so please have patience. Hopefully the rest will be coming soon!
 
 ## Reading the Map
-![npc](https://susanpallmann.github.io/temtem-npc-map/images/icons/npc.png)
+![npc](https://temtem-npc-map.github.io/map/images/icons/npc.png)
 
 **Normal NPC**
 Any NPC that doesn't fit into the following categories will have this icon.
 
 ---
 
-![npc moving](https://susanpallmann.github.io/temtem-npc-map/images/icons/npc-moving.png)
+![npc moving](https://temtem-npc-map.github.io/map/images/icons/npc-moving.png)
 
 **Moving NPC**
 NPCs that walk around the world within certain areas are marked with a blue icon to indicate that their location might not be entirely precise. However, the icon should be more or less along the path this NPC walks.
 
 ---
 
-![vendor](https://susanpallmann.github.io/temtem-npc-map/images/icons/npc-vendor.png)
+![vendor](https://temtem-npc-map.github.io/map/images/icons/npc-vendor.png)
 
 **Vendor**
 NPCs from which you can buy or sell goods will have this icon.
 
 ---
 
-![clothing vendor](https://susanpallmann.github.io/temtem-npc-map/images/icons/npc-clothing.png)
+![clothing vendor](https://temtem-npc-map.github.io/map/images/icons/npc-clothing.png)
 
 **Clothing Vendor**
 The NPC behind the counter at clothing stores will be marked with this icon.
 
 ---
 
-![furniture vendor](https://susanpallmann.github.io/temtem-npc-map/images/icons/npc-furniture.png)
+![furniture vendor](https://temtem-npc-map.github.io/map/images/icons/npc-furniture.png)
 
 **Furniture Vendor**
 The NPC behind the counter at furniture stores will be marked with this icon.
 
 ---
 
-![Post Office Manager](https://susanpallmann.github.io/temtem-npc-map/images/icons/npc-mail.png)
+![Post Office Manager](https://temtem-npc-map.github.io/map/images/icons/npc-mail.png)
 
 **Post Office Manager**
 The NPC at the post office that you speak to to get daily mail delivery quests will have this icon.
 
 ---
 
-![Main character](https://susanpallmann.github.io/temtem-npc-map/images/icons/professor-konstantinos.png)
+![Main character](https://temtem-npc-map.github.io/map/images/icons/professor-konstantinos.png)
 
 **Main Characters**
 Special main characters (especially those that have their own image in the wiki) will have unique icons with their picture. Most NPCs will not receive this treatment.
@@ -65,24 +65,24 @@ The best way you can help is to contribute to the [editable spreadsheet](https:/
 First, find a non-player character (NPC) in Temtem. You'll want to talk to this NPC to find out their name.
 
 
-![step 1](https://susanpallmann.github.io/temtem-npc-map/images/steps/step-1.png)
+![step 1](https://temtem-npc-map.github.io/map/images/steps/step-1.png)
 
 ### 2. Locate NPC on the in-game map
 While standing as close as possible to the NPC, look at the in-game map and note its location carefully. If the NPC walks around an area, just stand somewhere in the path the NPC walks.
 
 
-![step 2](https://susanpallmann.github.io/temtem-npc-map/images/steps/step-2.png)
+![step 2](https://temtem-npc-map.github.io/map/images/steps/step-2.png)
 
 ### 3. Pinpoint the same location on the interactive map with your mouse cursor
 Next, point your mouse to the same location on the interactive map and look to the lower left corner to identify the coordinates for that map. Tip: zooming in will help you get more accurate coordinates and locations.
 
 
-![step 3](https://susanpallmann.github.io/temtem-npc-map/images/steps/step-3.png)
+![step 3](https://temtem-npc-map.github.io/map/images/steps/step-3.png)
 
 Note: the spreadsheet tries to have 1 or more decimal places on the coordinates for accuracy. However, if the point you selected does not display more accurate coordinates, that is fine. In the example below, we will want to remember the values "647" and "295.13".
 
 
-![step 4](https://susanpallmann.github.io/temtem-npc-map/images/steps/step-4.png)
+![step 4](https://temtem-npc-map.github.io/map/images/steps/step-4.png)
 
 ### 4. Enter as much information as you can into the spreadsheet
 Now, with all that you gathered, head over to the [editable spreadsheet](https://docs.google.com/spreadsheets/d/1tjUlRZD72A1JmnQWcZm6yOo3EEuqh2xkVtv_SIXWFOg/edit?usp=sharing) of NPC locations and enter on a new row:
@@ -103,7 +103,7 @@ Now, with all that you gathered, head over to the [editable spreadsheet](https:/
 * **Added** - this is for developer reference to note if the NPC has been added to map already, please do not edit this section
 
 
-![step 5](https://susanpallmann.github.io/temtem-npc-map/images/steps/step-5.png)
+![step 5](https://temtem-npc-map.github.io/map/images/steps/step-5.png)
 
 ### 5. Wait!
 The developer(s) will take it from here to review your contribution, and hopefully add it to the site soon. Thank you for helping out with this project, it's a big undertaking!
