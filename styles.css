@@ -18,6 +18,7 @@
   background-repeat: no-repeat;
   background-color: #77f5ee;
   background-position: right;
+  color: var(--purple);
 }
 
 .header-container {
