@@ -115,10 +115,10 @@ $(document).ready(function() {
   var sonia = L.marker([736.75, 346.56], {title: 'sonia', icon: npcGenericIcon}).bindTooltip('Sonia', {className: 'tooltip'}).addTo(map);
   sonia._icon.classList.add('sonia');
   markers.push(sonia);
-  var giovannassuitora = L.marker([703.69, 338.81], {title: 'giovannassuitora', icon: npcGenericIcon}).bindTooltip('Giovanna's Suitor A', {className: 'tooltip'}).addTo(map);
+  var giovannassuitora = L.marker([703.69, 338.81], {title: 'giovannassuitora', icon: npcGenericIcon}).bindTooltip('Giovanna\'s Suitor A', {className: 'tooltip'}).addTo(map);
   giovannassuitora._icon.classList.add('giovannassuitora');
   markers.push(giovannassuitora);
-  var giovannassuitorb = L.marker([704, 341.88], {title: 'giovannassuitorb', icon: npcGenericIcon}).bindTooltip('Giovanna's Suitor B', {className: 'tooltip'}).addTo(map);
+  var giovannassuitorb = L.marker([704, 341.88], {title: 'giovannassuitorb', icon: npcGenericIcon}).bindTooltip('Giovanna\'s Suitor B', {className: 'tooltip'}).addTo(map);
   giovannassuitorb._icon.classList.add('giovannassuitorb');
   markers.push(giovannassuitorb);
   var valeria = L.marker([717.06, 362.88], {title: 'valeria', icon: npcGenericIcon}).bindTooltip('Valeria', {className: 'tooltip'}).addTo(map);
