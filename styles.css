@@ -11,6 +11,13 @@
   --darker-teal: #143246;
 }
 
+#hero {
+  background-image: url('images/hero.png');
+  background-sizing: cover;
+  padding-top: 4em;
+  background-repeat: no-repeat;
+}
+
 .header-container {
   height: 50px;
   background-color: var(--purple);
