@@ -544,4 +544,6 @@ body .area-popup .leaflet-popup-close-button {
 body.privacy footer {
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
