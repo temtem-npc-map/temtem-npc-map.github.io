@@ -13,10 +13,10 @@
 
 #hero {
   background-image: url('images/hero.png');
-  background-sizing: auto 100%;
-  padding-top: 4em;
+  background-size: auto 120%;
+  padding: 5em 0;
   background-repeat: no-repeat;
-  background-color: #b2fcf8;
+  background-color: 77f5ee;
 }
 
 .header-container {
