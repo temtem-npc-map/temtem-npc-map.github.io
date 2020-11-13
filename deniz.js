@@ -361,9 +361,9 @@ $(document).ready(function() {
   var greedytamer = L.marker([205.5, 399.42], {title: 'greedytamer', icon: npcGenericIcon}).bindTooltip('Greedy Tamer', {className: 'tooltip'}).addTo(map);
   greedytamer._icon.classList.add('greedytamer');
   markers.push(greedytamer);
-  var orphan = L.marker([216.25, 416.04], {title: 'orphan', icon: npcGenericIcon}).bindTooltip('Orphan', {className: 'tooltip'}).addTo(map);
-  orphan._icon.classList.add('orphan');
-  markers.push(orphan);
+  var orhan = L.marker([216.25, 416.04], {title: 'orhan', icon: npcGenericIcon}).bindTooltip('Orhan', {className: 'tooltip'}).addTo(map);
+  orhan._icon.classList.add('orhan');
+  markers.push(orhan);
   var pampinea = L.marker([221.13, 414.54], {title: 'pampinea', icon: npcGenericIcon}).bindTooltip('Pampinea', {className: 'tooltip'}).addTo(map);
   pampinea._icon.classList.add('pampinea');
   markers.push(pampinea);
