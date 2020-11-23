@@ -409,6 +409,21 @@ $(document).ready(function() {
   var captainpaco = L.marker([299.25, 499], {title: 'captainpaco', icon: npcGenericIcon}).bindTooltip('Captain paco', {className: 'tooltip'}).addTo(map);
   captainpaco._icon.classList.add('captainpaco');
   markers.push(captainpaco);
+  var marta = L.marker([642.49, 299.34], {title: 'marta', icon: npcGenericIcon}).bindTooltip('Marta', {className: 'tooltip'}).addTo(map);
+  marta._icon.classList.add('marta');
+  markers.push(marta);
+  var ecrin = L.marker([643.87, 306.4], {title: 'ecrin', icon: npcGenericIcon}).bindTooltip('Ecrin', {className: 'tooltip'}).addTo(map);
+  ecrin._icon.classList.add('ecrin');
+  markers.push(ecrin);
+  var renata = L.marker([641.56, 321.83], {title: 'renata', icon: npcGenericIcon}).bindTooltip('Renata', {className: 'tooltip'}).addTo(map);
+  renata._icon.classList.add('renata');
+  markers.push(renata);
+  var laura = L.marker([637.37, 322.58], {title: 'laura', icon: npcGenericIcon}).bindTooltip('Laura', {className: 'tooltip'}).addTo(map);
+  laura._icon.classList.add('laura');
+  markers.push(laura);
+  var sedentaryhuman = L.marker([614.79, 329.4], {title: 'sedentaryhuman', icon: npcGenericIcon}).bindTooltip('Sedentary Human', {className: 'tooltip'}).addTo(map);
+  sedentaryhuman._icon.classList.add('sedentaryhuman');
+  markers.push(sedentaryhuman);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
