@@ -74,7 +74,7 @@ The best way you can help is to contribute to the [Google Form](https://forms.gl
 - [X] Create maps for other islands
 - [X] Move to own github account
 - [X] Create privacy page
-- [ ] Set up Google Analytics
+- [X] Set up Google Analytics
 - [ ] Add location markers/labels
 - [ ] Add fightable info for existing NPCs
 - [ ] Add alt text everywhere
