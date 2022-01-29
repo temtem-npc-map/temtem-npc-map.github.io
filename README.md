@@ -4,7 +4,7 @@ Temtem NPC map is a fan-made map for the game [Temtem](https://crema.gg/games/te
 This site is in no way an official Temtem or Crema website. All images, styles, and design choices are inspired by and/or belong to Crema.
 
 ## Links
-* [Live Website](https://temtem-npc-map.github.io/map/)
+* [Live Website](https://temtem-npc-map.github.io/)
 * [Editable Spreadsheet](https://docs.google.com/spreadsheets/d/1tjUlRZD72A1JmnQWcZm6yOo3EEuqh2xkVtv_SIXWFOg/edit?usp=sharing)
 
 ## Notice
