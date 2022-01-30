@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Information -->
+    <title>Cipanku | Temtem NPC Location Map</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/images/favicon.png" >
+    
+    <meta property="og:title" content="Cipanku | Temtem NPC Location Map">
+    <meta property="og:site_name" content="Cipanku | Temtem NPC Location Map">
+    <meta name="twitter:title" content="Cipanku | Temtem NPC Location Map"/>   
+ 
+    <meta name="description" content="Temtem NPC map is a fan-made map for the game Temtem. In Temtem patch 0.6.12, the game introduced a Postal Service mechanic in which the player is given 1-3 parcels and tasked with delivering them to NPCs all over the game world! The goal of this interactive map is to make it a little easier to find these NPCs.">
+    <meta property="og:description" content="Temtem NPC map is a fan-made map for the game Temtem. In Temtem patch 0.6.12, the game introduced a Postal Service mechanic in which the player is given 1-3 parcels and tasked with delivering them to NPCs all over the game world! The goal of this interactive map is to make it a little easier to find these NPCs.">
+    <meta name="twitter:description" content="Temtem NPC map is a fan-made map for the game Temtem. In Temtem patch 0.6.12, the game introduced a Postal Service mechanic in which the player is given 1-3 parcels and tasked with delivering them to NPCs all over the game world! The goal of this interactive map is to make it a little easier to find these NPCs." />  
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://temtem-npc-map.github.io/cipanku">
+    <meta name="twitter:site" content="https://temtem-npc-map.github.io/cipanku"/>
+    
+    <meta property="og:image" content="https://temtem-npc-map.github.io/images/preview.png">
+    <meta name="twitter:image" content="https://temtem-npc-map.github.io/images/preview.png" />
+    
+    <meta property="og:image:width" content="640">
+    <meta property="og:image:height" content="365">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LETY9SLLH1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LETY9SLLH1');
+    </script>
+    
+    <!-- Mobile Sizing -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Responsive Grid -->
+    <link rel="stylesheet" type="text/css" href="discount-bootstrap.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Oswald:wght@700&display=swap" rel="stylesheet">  
+    
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- No-Script Styling -->
+    <noscript><link rel="stylesheet" type="text/css" href="no-script.css"></noscript>
+    
+    <!-- Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin="">
+    </script>
+    <script src="mouse-position.js"></script>
+    
+    <!-- Scripts -->
+    <script src="discount-bootstrap.js"></script>
+    <script src="app.js"></script>
+    <script src="cipanku.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("#header").load("header.html", 
+          function() {
+            $('#tray').toggle();
+          }
+        );
+        $("#footer").load("footer.html"); 
+      });
+    </script>
+  </head>
+  <body class="map-page">
+    <header id="header"></header>
+    <main>
+      <div id="map-cipanku">
+      </div>
+      <div id="map-controls">
+        <h2>Cipanku</h2>
+        <form id="unique-controls">
+          <label for="search">Search for an NPC:</label>
+          <br>
+          <input type="text" id="search" name="search" placeholder="Search"></input>
+          <ul id="results">
+          </ul>
+          <label>Filters:</label>
+          <br>
+          <div class="filter-options">
+            <ul>
+              <li><input type="checkbox" id="combat" name="combat" value="combat">
+              <label class="filter-label" for="combat"><img class="marker-small" src="images/icons/npc-combat.png" alt="" />Combat NPC</label><br></li>
+              <li><input type="checkbox" id="moving" name="moving" value="moving">
+              <label class="filter-label" for="moving"><img class="marker-small" src="images/icons/npc-moving.png" alt="" />Moving NPC</label><br></li>
+              <li><input type="checkbox" id="vendor" name="vendor" value="vendor">
+              <label class="filter-label" for="vendor"><img class="marker-small" src="images/icons/npc-vendor.png" alt="" />Vendor</label><br></li>
+              <li><input type="checkbox" id="clothing" name="clothing" value="clothing">
+              <label class="filter-label"  for="clothing"><img class="marker-small" src="images/icons/npc-clothing.png" alt="" />Clothing Vendor</label><br></li>
+              <li><input type="checkbox" id="furniture" name="furniture" value="furniture">
+              <label class="filter-label"  for="furniture"><img class="marker-small" src="images/icons/npc-furniture.png" alt="" />Furniture Vendor</label><br></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
+<!-- Magic -->
