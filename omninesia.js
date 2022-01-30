@@ -37,6 +37,10 @@ $(document).ready(function() {
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   
+  var bwanbale = L.marker([568.38, 302], {title: 'bwanbale', icon: npcGenericIcon}).bindTooltip('Bwanbale', {className: 'tooltip'}).addTo(map);
+  bwanbale._icon.classList.add('bwanbale');
+  markers.push(bwanbale);
+  
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
   //var name = L.marker([00, 00], {title: name, icon: npcGenericIcon}).bindTooltip("name", {className: 'tooltip'}).addTo(map);
