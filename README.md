@@ -8,7 +8,7 @@ This site is in no way an official Temtem or Crema website. All images, styles, 
 * [Editable Spreadsheet](https://docs.google.com/spreadsheets/d/1tjUlRZD72A1JmnQWcZm6yOo3EEuqh2xkVtv_SIXWFOg/edit?usp=sharing)
 
 ## Notice
-Currently, this website only displays Kisiwa. Other islands still need to be mapped and set up with their own coordinate systems. The idea is to get the functionality working for this island, and then start filling in the others. This website is maintained in its entirety by one person, so please have patience. Hopefully the rest will be coming soon!
+This website is maintained in its entirety by one person (who also has a full-time job), so please have patience. Although all maps are now created, very few of the NPCs have been mapped. Hopefully the rest will be coming soon!
 
 ## Reading the Map
 ![npc](https://temtem-npc-map.github.io/map/images/icons/npc.png)
@@ -75,6 +75,7 @@ The best way you can help is to contribute to the [Google Form](https://forms.gl
 - [X] Move to own github account
 - [X] Create privacy page
 - [X] Set up Google Analytics
+- [X] Upload remaining island maps
 - [ ] Add location markers/labels
 - [ ] Add fightable info for existing NPCs
 - [ ] Add alt text everywhere
