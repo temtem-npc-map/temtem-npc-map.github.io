@@ -146,7 +146,7 @@ h1, h2, h3 {
   letter-spacing: 0.02em;
 }
 
-#map-container, #map-kisiwa, #map-deniz, #map-omninesia, #map-tucma {
+#map-container, #map-kisiwa, #map-deniz, #map-omninesia, #map-tucma, #map-cipanku, #map-arbury {
   overflow: hidden;
   height: 100vh;
   width: 80%;
@@ -167,7 +167,7 @@ h1, h2, h3 {
   color: #fff;
 }
 
-#map-container, #map-kisiwa, #map-deniz, #map-omninesia, #map-tucma {
+#map-container, #map-kisiwa, #map-deniz, #map-omninesia, #map-tucma, #map-cipanku, #map-arbury {
   height: calc(60vh - 25px);
   width: 100%;
 }
@@ -178,7 +178,7 @@ h1, h2, h3 {
 }
 
 @media only screen and (min-width: 750px) {
-  #map-container, #map-kisiwa, #map-deniz, #map-omninesia, #map-tucma {
+  #map-container, #map-kisiwa, #map-deniz, #map-omninesia, #map-tucma, #map-cipanku, #map-arbury {
     height: calc(100vh - 50px);
     width: 80%;
     float: right;
