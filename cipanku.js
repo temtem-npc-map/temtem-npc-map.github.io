@@ -209,9 +209,9 @@ $(document).ready(function() {
   var formerdojomaster = L.marker([602, 159.57], {title: 'formerdojomaster', icon: npcGenericIcon}).bindTooltip('Former Dojo Master', {className: 'tooltip'}).addTo(map);
   formerdojomaster._icon.classList.add('formerdojomaster');
   markers.push(formerdojomaster);
-  var innovativeentrapenuer = L.marker([545.63, 156.29], {title: 'innovativeentrapenuer', icon: npcGenericIcon}).bindTooltip('Innovative Entrapenuer', {className: 'tooltip'}).addTo(map);
-  innovativeentrapenuer._icon.classList.add('innovativeentrapenuer');
-  markers.push(innovativeentrapenuer);
+  var innovativeentrepreneur = L.marker([545.63, 156.29], {title: 'innovativeentrepreneur', icon: npcGenericIcon}).bindTooltip('Innovative Entrepreneur', {className: 'tooltip'}).addTo(map);
+  innovativeentrepreneur._icon.classList.add('innovativeentrepreneur');
+  markers.push(innovativeentrepreneur);
   var jennie = L.marker([528.75, 209.4], {title: 'jennie', icon: npcGenericIcon}).bindTooltip('Jennie', {className: 'tooltip'}).addTo(map);
   jennie._icon.classList.add('jennie');
   markers.push(jennie);
