@@ -144,7 +144,7 @@ $(document).ready(function() {
   var accountant = L.marker([776.83, 694.01], {title: 'accountant', icon: npcGenericIcon}).bindTooltip('Accountant', {className: 'tooltip'}).addTo(map);
   accountant._icon.classList.add('accountant');
   markers.push(accountant);
-  var olianasassistant = L.marker([781.83, 694.01], {title: 'olianasassistant', icon: npcGenericIcon}).bindTooltip('Oliana's Assistant', {className: 'tooltip'}).addTo(map);
+  var olianasassistant = L.marker([781.83, 694.01], {title: 'olianasassistant', icon: npcGenericIcon}).bindTooltip("Oliana's Assistant", {className: 'tooltip'}).addTo(map);
   olianasassistant._icon.classList.add('olianasassistant');
   markers.push(olianasassistant);
   var oliana = L.marker([786.83, 694.01], {title: 'oliana', icon: npcGenericIcon}).bindTooltip('Oliana', {className: 'tooltip'}).addTo(map);
