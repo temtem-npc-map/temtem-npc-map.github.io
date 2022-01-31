@@ -40,6 +40,26 @@ $(document).ready(function() {
   var bwanbale = L.marker([568.38, 302], {title: 'bwanbale', icon: npcGenericIcon}).bindTooltip('Bwanbale', {className: 'tooltip'}).addTo(map);
   bwanbale._icon.classList.add('bwanbale');
   markers.push(bwanbale);
+  var touristinformation = L.marker([861.42, 797.22], {title: 'touristinformation', icon: npcMovingIcon}).bindTooltip('Tourist Information', {className: 'tooltip'}).addTo(map);
+  touristinformation._icon.classList.add('touristinformation');
+  touristinformation._icon.classList.add('moving');
+  markers.push(touristinformation);
+  var nangalocal = L.marker([865.04, 772.71], {title: 'nangalocal', icon: npcGenericIcon}).bindTooltip('Nanga Local', {className: 'tooltip'}).addTo(map);
+  nangalocal._icon.classList.add('nangalocal');
+  markers.push(nangalocal);
+  var nakkiah = L.marker([855.64, 758.26], {title: 'nakkiah', icon: npcGenericIcon}).bindTooltip('Nakkiah', {className: 'tooltip'}).addTo(map);
+  nakkiah._icon.classList.add('nakkiah');
+  markers.push(nakkiah);
+  var nanguitamer = L.marker([892.62, 709.13], {title: 'nanguitamer', icon: npcGenericIcon}).bindTooltip('Nangui Tamer', {className: 'tooltip'}).addTo(map);
+  nanguitamer._icon.classList.add('nanguitamer');
+  markers.push(nanguitamer);
+  var mokupunitamer = L.marker([889.62, 711.75], {title: 'mokupunitamer', icon: npcGenericIcon}).bindTooltip('Mokupuni Tamer', {className: 'tooltip'}).addTo(map);
+  mokupunitamer._icon.classList.add('mokupunitamer');
+  markers.push(mokupunitamer);
+  var newspaperboy = L.marker([905.92, 690.84], {title: 'newspaperboy', icon: npcMovingIcon}).bindTooltip('Newspaper Boy', {className: 'tooltip'}).addTo(map);
+  newspaperboy._icon.classList.add('newspaperboy');
+  newspaperboy._icon.classList.add('moving');
+  markers.push(newspaperboy);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
