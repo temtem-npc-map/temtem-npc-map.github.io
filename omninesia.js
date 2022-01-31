@@ -156,6 +156,27 @@ $(document).ready(function() {
   var designer = L.marker([776.83, 704.01], {title: 'designer', icon: npcGenericIcon}).bindTooltip('Designer', {className: 'tooltip'}).addTo(map);
   designer._icon.classList.add('designer');
   markers.push(designer);
+  var nanguitoddler = L.marker([877.53, 630.95], {title: 'nanguitoddler', icon: npcGenericIcon}).bindTooltip('Nangui Toddler', {className: 'tooltip'}).addTo(map);
+  nanguitoddler._icon.classList.add('nanguitoddler');
+  markers.push(nanguitoddler);
+  var nanguigranny = L.marker([877.53, 628.2], {title: 'nanguigranny', icon: npcGenericIcon}).bindTooltip('Nangui Granny', {className: 'tooltip'}).addTo(map);
+  nanguigranny._icon.classList.add('nanguigranny');
+  markers.push(nanguigranny);
+  var loali = L.marker([772.67, 605.43], {title: 'loali', icon: npcGenericIcon}).bindTooltip('Loali', {className: 'tooltip'}).addTo(map);
+  loali._icon.classList.add('loali');
+  markers.push(loali);
+  var stargazer = L.marker([772.67, 609.56], {title: 'stargazer', icon: npcGenericIcon}).bindTooltip('StarGazer', {className: 'tooltip'}).addTo(map);
+  stargazer._icon.classList.add('stargazer');
+  markers.push(stargazer);
+  var tupou = L.marker([816.94, 611.06], {title: 'tupou', icon: npcGenericIcon}).bindTooltip('Tupou', {className: 'tooltip'}).addTo(map);
+  tupou._icon.classList.add('tupou');
+  markers.push(tupou);
+  var losa = L.marker([784.3, 570.8], {title: 'losa', icon: npcGenericIcon}).bindTooltip('Losa', {className: 'tooltip'}).addTo(map);
+  losa._icon.classList.add('losa');
+  markers.push(losa);
+  var tarlae = L.marker([766.04, 642.69], {title: 'tarlae', icon: npcGenericIcon}).bindTooltip('Tarlae', {className: 'tooltip'}).addTo(map);
+  tarlae._icon.classList.add('tarlae');
+  markers.push(tarlae);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
