@@ -83,8 +83,9 @@ $(document).ready(function() {
   var nanguifashionista = L.marker([889.56, 658.35], {title: 'nanguifashionista', icon: npcGenericIcon}).bindTooltip('Nangui Fashionista', {className: 'tooltip'}).addTo(map);
   nanguifashionista._icon.classList.add('nanguifashionista');
   markers.push(nanguifashionista);
-  var mahi = L.marker([906.68, 658.99], {title: 'mahi', icon: npcGenericIcon}).bindTooltip('Mahi', {className: 'tooltip'}).addTo(map);
+  var mahi = L.marker([906.68, 658.99], {title: 'mahi', icon: npcClothingIcon}).bindTooltip('Mahi', {className: 'tooltip'}).addTo(map);
   mahi._icon.classList.add('mahi');
+  mahi._icon.classList.add('clothing');
   markers.push(mahi);
   var cluelessshopper = L.marker([906.68, 660.99], {title: 'cluelessshopper', icon: npcGenericIcon}).bindTooltip('Clueless Shopper', {className: 'tooltip'}).addTo(map);
   cluelessshopper._icon.classList.add('cluelessshopper');
