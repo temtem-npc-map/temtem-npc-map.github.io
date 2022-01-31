@@ -156,7 +156,7 @@ $(document).ready(function() {
   var myrenginspector = L.marker([619.38, 783.98], {title: 'myrenginspector', icon: npcGenericIcon}).bindTooltip('MyrEng inspector', {className: 'tooltip'}).addTo(map);
   myrenginspector._icon.classList.add('myrenginspector');
   markers.push(myrenginspector);
-  var pilgrimssupplies = L.marker([634.13, 828.62], {title: 'pilgrimssupplies', icon: npcVendorIcon}).bindTooltip('Pilgrim's Supplies', {className: 'tooltip'}).addTo(map);
+  var pilgrimssupplies = L.marker([634.13, 828.62], {title: 'pilgrimssupplies', icon: npcVendorIcon}).bindTooltip("Pilgrim's Supplies", {className: 'tooltip'}).addTo(map);
   pilgrimssupplies._icon.classList.add('pilgrimssupplies');
   pilgrimssupplies._icon.classList.add('vendor');
   markers.push(pilgrimssupplies);
