@@ -37,6 +37,30 @@ $(document).ready(function() {
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   
+  var temporiumvendor = L.marker([331, 186.56], {title: 'temporiumvendor', icon: npcVendorIcon}).bindTooltip('Temporium Vendor', {className: 'tooltip'}).addTo(map);
+  temporiumvendor._icon.classList.add('temporiumvendor');
+  temporiumvendor._icon.classList.add('vendor');
+  markers.push(temporiumvendor);
+  var aiko = L.marker([329.13, 253], {title: 'aiko', icon: npcGenericIcon}).bindTooltip('Aiko', {className: 'tooltip'}).addTo(map);
+  aiko._icon.classList.add('aiko');
+  markers.push(aiko);
+  var hideyo = L.marker([330.5, 195.75], {title: 'hideyo', icon: npcMovingIcon}).bindTooltip('Hideyo', {className: 'tooltip'}).addTo(map);
+  hideyo._icon.classList.add('hideyo');
+  hideyo._icon.classList.add('moving');
+  markers.push(hideyo);
+  var satoshi = L.marker([247, 231.63], {title: 'satoshi', icon: npcGenericIcon}).bindTooltip('Satoshi', {className: 'tooltip'}).addTo(map);
+  satoshi._icon.classList.add('satoshi');
+  markers.push(satoshi);
+  var saeko = L.marker([257.25, 231.5], {title: 'saeko', icon: npcGenericIcon}).bindTooltip('Saeko', {className: 'tooltip'}).addTo(map);
+  saeko._icon.classList.add('saeko');
+  markers.push(saeko);
+  var mirai = L.marker([295.5, 307.38], {title: 'mirai', icon: npcGenericIcon}).bindTooltip('Mirai', {className: 'tooltip'}).addTo(map);
+  mirai._icon.classList.add('mirai');
+  markers.push(mirai);
+  var nami = L.marker([284.5, 262.38], {title: 'nami', icon: npcGenericIcon}).bindTooltip('Nami', {className: 'tooltip'}).addTo(map);
+  nami._icon.classList.add('nami');
+  markers.push(nami);
+  
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
   //var name = L.marker([00, 00], {title: name, icon: npcGenericIcon}).bindTooltip("name", {className: 'tooltip'}).addTo(map);
