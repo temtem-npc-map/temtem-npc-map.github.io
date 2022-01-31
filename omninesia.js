@@ -126,6 +126,36 @@ $(document).ready(function() {
   var zeppelinlover = L.marker([785.08, 715.01], {title: 'zeppelinlover', icon: npcGenericIcon}).bindTooltip('Zeppelin Lover', {className: 'tooltip'}).addTo(map);
   zeppelinlover._icon.classList.add('zeppelinlover');
   markers.push(zeppelinlover);
+  var restingtraveler = L.marker([785.08, 715.01], {title: 'restingtraveler', icon: npcGenericIcon}).bindTooltip('Resting Traveler', {className: 'tooltip'}).addTo(map);
+  restingtraveler._icon.classList.add('restingtraveler');
+  markers.push(restingtraveler);
+  var strandedcaptain = L.marker([776.83, 689.01], {title: 'strandedcaptain', icon: npcGenericIcon}).bindTooltip('Stranded Captain', {className: 'tooltip'}).addTo(map);
+  strandedcaptain._icon.classList.add('strandedcaptain');
+  markers.push(strandedcaptain);
+  var exasperatedtamer = L.marker([781.83, 689.01], {title: 'exasperatedtamer', icon: npcGenericIcon}).bindTooltip('Exasperated Tamer', {className: 'tooltip'}).addTo(map);
+  exasperatedtamer._icon.classList.add('exasperatedtamer');
+  markers.push(exasperatedtamer);
+  var lodger = L.marker([786.83, 689.01], {title: 'lodger', icon: npcGenericIcon}).bindTooltip('Lodger', {className: 'tooltip'}).addTo(map);
+  lodger._icon.classList.add('lodger');
+  markers.push(lodger);
+  var haplesswriter = L.marker([791.83, 689.01], {title: 'haplesswriter', icon: npcGenericIcon}).bindTooltip('Hapless Writer', {className: 'tooltip'}).addTo(map);
+  haplesswriter._icon.classList.add('haplesswriter');
+  markers.push(haplesswriter);
+  var accountant = L.marker([776.83, 694.01], {title: 'accountant', icon: npcGenericIcon}).bindTooltip('Accountant', {className: 'tooltip'}).addTo(map);
+  accountant._icon.classList.add('accountant');
+  markers.push(accountant);
+  var olianasassistant = L.marker([781.83, 694.01], {title: 'olianasassistant', icon: npcGenericIcon}).bindTooltip('Oliana's Assistant', {className: 'tooltip'}).addTo(map);
+  olianasassistant._icon.classList.add('olianasassistant');
+  markers.push(olianasassistant);
+  var oliana = L.marker([786.83, 694.01], {title: 'oliana', icon: npcGenericIcon}).bindTooltip('Oliana', {className: 'tooltip'}).addTo(map);
+  oliana._icon.classList.add('oliana');
+  markers.push(oliana);
+  var intern = L.marker([791.83, 694.01], {title: 'intern', icon: npcGenericIcon}).bindTooltip('Intern', {className: 'tooltip'}).addTo(map);
+  intern._icon.classList.add('intern');
+  markers.push(intern);
+  var designer = L.marker([776.83, 699.01], {title: 'designer', icon: npcGenericIcon}).bindTooltip('Designer', {className: 'tooltip'}).addTo(map);
+  designer._icon.classList.add('designer');
+  markers.push(designer);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
