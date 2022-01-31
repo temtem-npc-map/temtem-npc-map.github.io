@@ -181,6 +181,40 @@ $(document).ready(function() {
   var untroubledpriestess = L.marker([697.88, 769.86], {title: 'untroubledpriestess', icon: npcGenericIcon}).bindTooltip('Untroubled Priestess', {className: 'tooltip'}).addTo(map);
   untroubledpriestess._icon.classList.add('untroubledpriestess');
   markers.push(untroubledpriestess);
+  var akashi = L.marker([616.75, 211.78], {title: 'akashi', icon: npcGenericIcon}).bindTooltip('Akashi', {className: 'tooltip'}).addTo(map);
+  akashi._icon.classList.add('akashi');
+  markers.push(akashi);
+  var akio = L.marker([584.13, 214.53], {title: 'akio', icon: npcGenericIcon}).bindTooltip('Akio', {className: 'tooltip'}).addTo(map);
+  akio._icon.classList.add('akio');
+  markers.push(akio);
+  var akira = L.marker([626.13, 237.4], {title: 'akira', icon: npcGenericIcon}).bindTooltip('Akira', {className: 'tooltip'}).addTo(map);
+  akira._icon.classList.add('akira');
+  markers.push(akira);
+  var asooka = L.marker([529.25, 211.05], {title: 'asooka', icon: npcGenericIcon}).bindTooltip('Asooka', {className: 'tooltip'}).addTo(map);
+  asooka._icon.classList.add('asooka');
+  markers.push(asooka);
+  var azuztawiejaz = L.marker([602.75, 230.55], {title: 'azuztawiejaz', icon: npcGenericIcon}).bindTooltip('Azuztawiejaz', {className: 'tooltip'}).addTo(map);
+  azuztawiejaz._icon.classList.add('azuztawiejaz');
+  markers.push(azuztawiejaz);
+  var betisuke = L.marker([536.25, 208.05], {title: 'betisuke', icon: npcGenericIcon}).bindTooltip('Betisuke', {className: 'tooltip'}).addTo(map);
+  betisuke._icon.classList.add('betisuke');
+  markers.push(betisuke);
+  var cipankiforeman = L.marker([596, 252.3], {title: 'cipankiforeman', icon: npcGenericIcon}).bindTooltip('Cipanki Foreman', {className: 'tooltip'}).addTo(map);
+  cipankiforeman._icon.classList.add('cipankiforeman');
+  markers.push(cipankiforeman);
+  var forgetfulneoedan = L.marker([577.75, 156.32], {title: 'forgetfulneoedan', icon: npcMovingIcon}).bindTooltip('Forgetful Neoedan', {className: 'tooltip'}).addTo(map);
+  forgetfulneoedan._icon.classList.add('forgetfulneoedan');
+  forgetfulneoedan._icon.classList.add('moving');
+  markers.push(forgetfulneoedan);
+  var formerdojomaster = L.marker([602, 159.57], {title: 'formerdojomaster', icon: npcGenericIcon}).bindTooltip('Former Dojo Master', {className: 'tooltip'}).addTo(map);
+  formerdojomaster._icon.classList.add('formerdojomaster');
+  markers.push(formerdojomaster);
+  var innovativeentrapenuer = L.marker([545.63, 156.29], {title: 'innovativeentrapenuer', icon: npcGenericIcon}).bindTooltip('Innovative Entrapenuer', {className: 'tooltip'}).addTo(map);
+  innovativeentrapenuer._icon.classList.add('innovativeentrapenuer');
+  markers.push(innovativeentrapenuer);
+  var jennie = L.marker([528.75, 209.4], {title: 'jennie', icon: npcGenericIcon}).bindTooltip('Jennie', {className: 'tooltip'}).addTo(map);
+  jennie._icon.classList.add('jennie');
+  markers.push(jennie);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
