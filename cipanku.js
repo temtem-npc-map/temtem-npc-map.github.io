@@ -60,6 +60,18 @@ $(document).ready(function() {
   var nami = L.marker([284.5, 262.38], {title: 'nami', icon: npcGenericIcon}).bindTooltip('Nami', {className: 'tooltip'}).addTo(map);
   nami._icon.classList.add('nami');
   markers.push(nami);
+  var hakura = L.marker([294.88, 197.25], {title: 'hakura', icon: npcGenericIcon}).bindTooltip('Hakura', {className: 'tooltip'}).addTo(map);
+  hakura._icon.classList.add('hakura');
+  markers.push(hakura);
+  var goro = L.marker([316.13, 267.63], {title: 'goro', icon: npcGenericIcon}).bindTooltip('Goro', {className: 'tooltip'}).addTo(map);
+  goro._icon.classList.add('goro');
+  markers.push(goro);
+  var mjuni = L.marker([309.25, 310.63], {title: 'mjuni', icon: npcGenericIcon}).bindTooltip('Mjuni', {className: 'tooltip'}).addTo(map);
+  mjuni._icon.classList.add('mjuni');
+  markers.push(mjuni);
+  var rin = L.marker([294.63, 203.5], {title: 'rin', icon: npcGenericIcon}).bindTooltip('Rin', {className: 'tooltip'}).addTo(map);
+  rin._icon.classList.add('rin');
+  markers.push(rin);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
