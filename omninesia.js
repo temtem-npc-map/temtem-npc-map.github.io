@@ -90,6 +90,42 @@ $(document).ready(function() {
   var cluelessshopper = L.marker([906.68, 660.99], {title: 'cluelessshopper', icon: npcGenericIcon}).bindTooltip('Clueless Shopper', {className: 'tooltip'}).addTo(map);
   cluelessshopper._icon.classList.add('cluelessshopper');
   markers.push(cluelessshopper);
+  var savvyshopper = L.marker([906.68, 662.99], {title: 'savvyshopper', icon: npcGenericIcon}).bindTooltip('Savvy Shopper', {className: 'tooltip'}).addTo(map);
+  savvyshopper._icon.classList.add('savvyshopper');
+  markers.push(savvyshopper);
+  var civilengineer = L.marker([793.98, 738.12], {title: 'civilengineer', icon: npcGenericIcon}).bindTooltip('Civil Engineer', {className: 'tooltip'}).addTo(map);
+  civilengineer._icon.classList.add('civilengineer');
+  markers.push(civilengineer);
+  var mele = L.marker([776.65, 738.76], {title: 'mele', icon: npcGenericIcon}).bindTooltip('Mele', {className: 'tooltip'}).addTo(map);
+  mele._icon.classList.add('mele');
+  markers.push(mele);
+  var myrengreceptionist = L.marker([777.08, 720.01], {title: 'myrengreceptionist', icon: npcGenericIcon}).bindTooltip('MyrEng Receptionist', {className: 'tooltip'}).addTo(map);
+  myrengreceptionist._icon.classList.add('myrengreceptionist');
+  markers.push(myrengreceptionist);
+  var taterubreeder = L.marker([779.08, 720.01], {title: 'taterubreeder', icon: npcGenericIcon}).bindTooltip('Tateru Breeder', {className: 'tooltip'}).addTo(map);
+  taterubreeder._icon.classList.add('taterubreeder');
+  markers.push(taterubreeder);
+  var taterufan = L.marker([781.08, 720.01], {title: 'taterufan', icon: npcGenericIcon}).bindTooltip('Tateru Fan', {className: 'tooltip'}).addTo(map);
+  taterufan._icon.classList.add('taterufan');
+  markers.push(taterufan);
+  var sleepytraveler = L.marker([783.08, 720.01], {title: 'sleepytraveler', icon: npcGenericIcon}).bindTooltip('Sleepy Traveler', {className: 'tooltip'}).addTo(map);
+  sleepytraveler._icon.classList.add('sleepytraveler');
+  markers.push(sleepytraveler);
+  var skepticalwoman = L.marker([777.08, 715.01], {title: 'skepticalwoman', icon: npcGenericIcon}).bindTooltip('Skeptical Woman', {className: 'tooltip'}).addTo(map);
+  skepticalwoman._icon.classList.add('skepticalwoman');
+  markers.push(skepticalwoman);
+  var windbag = L.marker([779.08, 715.01], {title: 'windbag', icon: npcGenericIcon}).bindTooltip('Windbag', {className: 'tooltip'}).addTo(map);
+  windbag._icon.classList.add('windbag');
+  markers.push(windbag);
+  var foxytamer = L.marker([781.08, 715.01], {title: 'foxytamer', icon: npcGenericIcon}).bindTooltip('Foxy Tamer', {className: 'tooltip'}).addTo(map);
+  foxytamer._icon.classList.add('foxytamer');
+  markers.push(foxytamer);
+  var taciturnlodger = L.marker([783.08, 715.01], {title: 'taciturnlodger', icon: npcGenericIcon}).bindTooltip('Taciturn Lodger', {className: 'tooltip'}).addTo(map);
+  taciturnlodger._icon.classList.add('taciturnlodger');
+  markers.push(taciturnlodger);
+  var zeppelinlover = L.marker([785.08, 715.01], {title: 'zeppelinlover', icon: npcGenericIcon}).bindTooltip('Zeppelin Lover', {className: 'tooltip'}).addTo(map);
+  zeppelinlover._icon.classList.add('zeppelinlover');
+  markers.push(zeppelinlover);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
