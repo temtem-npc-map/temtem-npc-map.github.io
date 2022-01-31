@@ -60,6 +60,35 @@ $(document).ready(function() {
   newspaperboy._icon.classList.add('newspaperboy');
   newspaperboy._icon.classList.add('moving');
   markers.push(newspaperboy);
+  var matelita = L.marker([902.58, 725.61], {title: 'matelita', icon: npcFurnitureIcon}).bindTooltip('Matelita', {className: 'tooltip'}).addTo(map);
+  matelita._icon.classList.add('matelita');
+  matelita._icon.classList.add('furniture');
+  markers.push(matelita);
+  var temporiumvendor = L.marker([933.68, 690.69], {title: 'temporiumvendor', icon: npcVendorIcon}).bindTooltip('Temporium Vendor', {className: 'tooltip'}).addTo(map);
+  temporiumvendor._icon.classList.add('temporiumvendor');
+  temporiumvendor._icon.classList.add('vendor');
+  markers.push(temporiumvendor);
+  var braggingtamer = L.marker([933.68, 692.69], {title: 'braggingtamer', icon: npcGenericIcon}).bindTooltip('Bragging Tamer', {className: 'tooltip'}).addTo(map);
+  braggingtamer._icon.classList.add('braggingtamer');
+  markers.push(braggingtamer);
+  var chattytamer = L.marker([933.68, 689.69], {title: 'chattytamer', icon: npcGenericIcon}).bindTooltip('Chatty Tamer', {className: 'tooltip'}).addTo(map);
+  chattytamer._icon.classList.add('chattytamer');
+  markers.push(chattytamer);
+  var elderlyomninesian = L.marker([875.31, 678.81], {title: 'elderlyomninesian', icon: npcGenericIcon}).bindTooltip('Elderly Omninesian', {className: 'tooltip'}).addTo(map);
+  elderlyomninesian._icon.classList.add('elderlyomninesian');
+  markers.push(elderlyomninesian);
+  var indecisiveshopper = L.marker([881.56, 674.23], {title: 'indecisiveshopper', icon: npcGenericIcon}).bindTooltip('Indecisive Shopper', {className: 'tooltip'}).addTo(map);
+  indecisiveshopper._icon.classList.add('indecisiveshopper');
+  markers.push(indecisiveshopper);
+  var nanguifashionista = L.marker([889.56, 658.35], {title: 'nanguifashionista', icon: npcGenericIcon}).bindTooltip('Nangui Fashionista', {className: 'tooltip'}).addTo(map);
+  nanguifashionista._icon.classList.add('nanguifashionista');
+  markers.push(nanguifashionista);
+  var mahi = L.marker([906.68, 658.99], {title: 'mahi', icon: npcGenericIcon}).bindTooltip('Mahi', {className: 'tooltip'}).addTo(map);
+  mahi._icon.classList.add('mahi');
+  markers.push(mahi);
+  var cluelessshopper = L.marker([906.68, 660.99], {title: 'cluelessshopper', icon: npcGenericIcon}).bindTooltip('Clueless Shopper', {className: 'tooltip'}).addTo(map);
+  cluelessshopper._icon.classList.add('cluelessshopper');
+  markers.push(cluelessshopper);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
