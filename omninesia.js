@@ -77,8 +77,9 @@ $(document).ready(function() {
   var elderlyomninesian = L.marker([875.31, 678.81], {title: 'elderlyomninesian', icon: npcGenericIcon}).bindTooltip('Elderly Omninesian', {className: 'tooltip'}).addTo(map);
   elderlyomninesian._icon.classList.add('elderlyomninesian');
   markers.push(elderlyomninesian);
-  var indecisiveshopper = L.marker([881.56, 674.23], {title: 'indecisiveshopper', icon: npcGenericIcon}).bindTooltip('Indecisive Shopper', {className: 'tooltip'}).addTo(map);
+  var indecisiveshopper = L.marker([881.56, 674.23], {title: 'indecisiveshopper', icon: npcMovingIcon}).bindTooltip('Indecisive Shopper', {className: 'tooltip'}).addTo(map);
   indecisiveshopper._icon.classList.add('indecisiveshopper');
+  indecisiveshopper._icon.classList.add('moving');
   markers.push(indecisiveshopper);
   var nanguifashionista = L.marker([889.56, 658.35], {title: 'nanguifashionista', icon: npcGenericIcon}).bindTooltip('Nangui Fashionista', {className: 'tooltip'}).addTo(map);
   nanguifashionista._icon.classList.add('nanguifashionista');
