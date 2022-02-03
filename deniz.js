@@ -517,6 +517,9 @@ $(document).ready(function() {
   var tinnitussufferer = L.marker([558.5, 288], {title: 'tinnitussufferer', icon: npcGenericIcon}).bindTooltip('Tinnitus Sufferer', {className: 'tooltip'}).addTo(map);
   tinnitussufferer._icon.classList.add('tinnitussufferer');
   markers.push(tinnitussufferer);
+  var tinnitussufferer = L.marker([457.75, 285.5], {title: 'tinnitussufferer', icon: npcGenericIcon}).bindTooltip('Tinnitus Sufferer', {className: 'tooltip'}).addTo(map);
+  tinnitussufferer._icon.classList.add('tinnitussufferer');
+  markers.push(tinnitussufferer);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
