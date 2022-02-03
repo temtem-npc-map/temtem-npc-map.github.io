@@ -488,7 +488,7 @@ $(document).ready(function() {
   var climber = L.marker([483, 435.5], {title: 'climber', icon: npcGenericIcon}).bindTooltip('Climber', {className: 'tooltip'}).addTo(map);
   climber._icon.classList.add('climber');
   markers.push(climber);
-  var alexia = L.marker([568, 303], {title: 'alexia', icon: npcCombatIcon}).bindTooltip('Alexia', {className: 'tooltip'}).addTo(map);
+  var alexia = L.marker([568, 303], {title: 'alexia', icon: npcMovingCombatIcon}).bindTooltip('Alexia', {className: 'tooltip'}).addTo(map);
   alexia._icon.classList.add('alexia');
   alexia._icon.classList.add('moving');
   alexia._icon.classList.add('combat');
