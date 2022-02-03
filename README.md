@@ -10,6 +10,11 @@ This site is in no way an official Temtem or Crema website. All images, styles, 
 ## Notice
 This website is maintained in its entirety by one person (who also has a full-time job), so please have patience. Although all maps are now created, very few of the NPCs have been mapped. Hopefully the rest will be coming soon!
 
+## Thanks & Acknowledgements
+Special thanks to Darkridge for his invaluable contributions populating the maps and getting the project started again. 
+
+This site is in no way an official Temtem or Crema website. All images, styles, and design choices are inspired by and/or belong to Crema, and the game's official wiki.
+
 ## Reading the Map
 ![npc](https://temtem-npc-map.github.io/map/images/icons/npc.png)
 
