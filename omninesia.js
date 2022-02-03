@@ -35,6 +35,7 @@ $(document).ready(function() {
   var npcCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-combat.png'});
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
   var npcBreederIcon = new TemMarker({iconUrl: 'images/icons/npc-breeder.png'});
+  var npcFruitIcon = new TemMarker({iconUrl: 'images/icons/npc-fruit.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   
@@ -331,6 +332,10 @@ $(document).ready(function() {
   var myrislanwoman = L.marker([854.71, 253.22], {title: 'myrislanwoman', icon: npcGenericIcon}).bindTooltip('Myrislan Woman', {className: 'tooltip'}).addTo(map);
   myrislanwoman._icon.classList.add('myrislanwoman');
   markers.push(myrislanwoman);
+  var mokupunifruitcoop = L.marker([888.23, 271.97], {title: 'mokupunifruitcoop', icon: npcFruitIcon}).bindTooltip('Mokupuni Fruit Co-op', {className: 'tooltip'}).addTo(map);
+  mokupunifruitcoop._icon.classList.add('mokupunifruitcoop');
+  mokupunifruitcoop._icon.classList.add('fruit');
+  markers.push(mokupunifruitcoop);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
