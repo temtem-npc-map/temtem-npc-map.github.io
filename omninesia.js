@@ -37,7 +37,9 @@ $(document).ready(function() {
   var npcBreederIcon = new TemMarker({iconUrl: 'images/icons/npc-breeder.png'});
   var npcFruitIcon = new TemMarker({iconUrl: 'images/icons/npc-fruit.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
-  var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
+  var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});
+  var npcTihaniIcon = new TemMarker({iconUrl: 'images/icons/tihani.png'});  
+  var npcRawiriIcon = new TemMarker({iconUrl: 'images/icons/rawiri.png'});  
   
   var bwanbale = L.marker([568.38, 302], {title: 'bwanbale', icon: npcGenericIcon}).bindTooltip('Bwanbale', {className: 'tooltip'}).addTo(map);
   bwanbale._icon.classList.add('bwanbale');
@@ -210,7 +212,7 @@ $(document).ready(function() {
   hoku._icon.classList.add('hoku');
   hoku._icon.classList.add('combat');
   markers.push(hoku);
-  var tihani = L.marker([942.69, 598.05], {title: 'tihani', icon: npcCombatIcon}).bindTooltip('Tihani', {className: 'tooltip'}).addTo(map);
+  var tihani = L.marker([942.69, 598.05], {title: 'tihani', icon: npcTihaniIcon}).bindTooltip('Tihani', {className: 'tooltip'}).addTo(map);
   tihani._icon.classList.add('tihani');
   tihani._icon.classList.add('combat');
   markers.push(tihani);
@@ -390,7 +392,7 @@ $(document).ready(function() {
   teulia._icon.classList.add('teulia');
   teulia._icon.classList.add('combat');
   markers.push(teulia);
-  var rawiri = L.marker([928.49, 193.11], {title: 'rawiri', icon: npcCombatIcon}).bindTooltip('Rawiri', {className: 'tooltip'}).addTo(map);
+  var rawiri = L.marker([928.49, 193.11], {title: 'rawiri', icon: npcRawiriIcon}).bindTooltip('Rawiri', {className: 'tooltip'}).addTo(map);
   rawiri._icon.classList.add('rawiri');
   rawiri._icon.classList.add('combat');
   markers.push(rawiri);
