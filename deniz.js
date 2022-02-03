@@ -800,3 +800,4 @@ $(document).on('click','.result-link',function(e){
   markerFunction($(this).attr('id'));
   e.preventDefault();
 }); 
+//
