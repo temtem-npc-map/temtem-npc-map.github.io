@@ -82,7 +82,6 @@ The best way you can help is to contribute to the [Google Form](https://forms.gl
 - [X] Set up Google Analytics
 - [X] Upload remaining island maps
 - [X] Form backlog catch-up
-- [ ] Update metadata for SEO
+- [X] Update metadata for SEO
 - [ ] Add location markers/labels
 - [ ] Add fightable info for existing NPCs
-- [ ] Add alt text everywhere
