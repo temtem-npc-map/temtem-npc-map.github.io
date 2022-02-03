@@ -708,7 +708,7 @@ $(document).ready(function() {
   var aquamarinaprospector = L.marker([673, 794.6], {title: 'aquamarinaprospector', icon: npcGenericIcon}).bindTooltip('Aquamarina Prospector', {className: 'tooltip'}).addTo(map);
   aquamarinaprospector._icon.classList.add('aquamarinaprospector');
   markers.push(aquamarinaprospector);
-  var nakamurasbodyguard = L.marker([644.4, 719.6], {title: 'nakamurasbodyguard', icon: npcGenericIcon}).bindTooltip('Nakamura's Bodyguard', {className: 'tooltip'}).addTo(map);
+  var nakamurasbodyguard = L.marker([644.4, 719.6], {title: 'nakamurasbodyguard', icon: npcGenericIcon}).bindTooltip("Nakamura's Bodyguard", {className: 'tooltip'}).addTo(map);
   nakamurasbodyguard._icon.classList.add('nakamurasbodyguard');
   markers.push(nakamurasbodyguard);
   var professornakamura = L.marker([652.4, 722.2], {title: 'professornakamura', icon: npcGenericIcon}).bindTooltip('Professor Nakamura', {className: 'tooltip'}).addTo(map);
