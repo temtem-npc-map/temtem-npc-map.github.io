@@ -212,6 +212,44 @@ $(document).ready(function() {
   tihani._icon.classList.add('tihani');
   tihani._icon.classList.add('combat');
   markers.push(tihani);
+  var maata = L.marker([887.97, 546.21], {title: 'maata', icon: npcCombatIcon}).bindTooltip('Maata', {className: 'tooltip'}).addTo(map);
+  maata._icon.classList.add('maata');
+  maata._icon.classList.add('combat');
+  markers.push(maata);
+  var temtivist = L.marker([907.48, 486.7], {title: 'temtivist', icon: npcGenericIcon}).bindTooltip('Temtivist', {className: 'tooltip'}).addTo(map);
+  temtivist._icon.classList.add('temtivist');
+  markers.push(temtivist);
+  var freetemcoordinator = L.marker([930.74, 498.71], {title: 'freetemcoordinator', icon: npcGenericIcon}).bindTooltip('FreeTem! Coordinator', {className: 'tooltip'}).addTo(map);
+  freetemcoordinator._icon.classList.add('freetemcoordinator');
+  markers.push(freetemcoordinator);
+  var freetemmanager = L.marker([925.74, 498.71], {title: 'freetemmanager', icon: npcGenericIcon}).bindTooltip('FreeTem! Manager', {className: 'tooltip'}).addTo(map);
+  freetemmanager._icon.classList.add('freetemmanager');
+  markers.push(freetemmanager);
+  var temtembreeder = L.marker([951.21, 529.46], {title: 'temtembreeder', icon: npcGenericIcon}).bindTooltip('Temtem Breeder', {className: 'tooltip'}).addTo(map);
+  temtembreeder._icon.classList.add('temtembreeder');
+  markers.push(temtembreeder);
+  var breecenshopkeeper = L.marker([956.21, 529.46], {title: 'breecenshopkeeper', icon: npcGenericIcon}).bindTooltip('BreeCen Shopkeeper', {className: 'tooltip'}).addTo(map);
+  breecenshopkeeper._icon.classList.add('breecenshopkeeper');
+  markers.push(breecenshopkeeper);
+  var fateia = L.marker([874.7, 489.96], {title: 'fateia', icon: npcCombatIcon}).bindTooltip('Fateia', {className: 'tooltip'}).addTo(map);
+  fateia._icon.classList.add('fateia');
+  fateia._icon.classList.add('combat');
+  markers.push(fateia);
+  var siosaia = L.marker([852.43, 468.46], {title: 'siosaia', icon: npcCombatIcon}).bindTooltip('Siosaia', {className: 'tooltip'}).addTo(map);
+  siosaia._icon.classList.add('siosaia');
+  siosaia._icon.classList.add('combat');
+  markers.push(siosaia);
+  var leilani = L.marker([806.71, 477.31], {title: 'leilani', icon: npcGenericIcon}).bindTooltip('Leilani', {className: 'tooltip'}).addTo(map);
+  leilani._icon.classList.add('leilani');
+  markers.push(leilani);
+  var vea = L.marker([790.2, 553.07], {title: 'vea', icon: npcCombatIcon}).bindTooltip('Vea?', {className: 'tooltip'}).addTo(map);
+  vea._icon.classList.add('vea');
+  vea._icon.classList.add('combat');
+  markers.push(vea);
+  var mea = L.marker([785.7, 553.07], {title: 'mea', icon: npcCombatIcon}).bindTooltip('Mea?', {className: 'tooltip'}).addTo(map);
+  mea._icon.classList.add('mea');
+  mea._icon.classList.add('combat');
+  markers.push(mea);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
