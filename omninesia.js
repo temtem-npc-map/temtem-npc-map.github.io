@@ -178,6 +178,40 @@ $(document).ready(function() {
   var tarlae = L.marker([766.04, 642.69], {title: 'tarlae', icon: npcGenericIcon}).bindTooltip('Tarlae', {className: 'tooltip'}).addTo(map);
   tarlae._icon.classList.add('tarlae');
   markers.push(tarlae);
+  var dojogirl = L.marker([875.21, 592.65], {title: 'dojogirl', icon: npcGenericIcon}).bindTooltip('Dojo Girl', {className: 'tooltip'}).addTo(map);
+  dojogirl._icon.classList.add('dojogirl');
+  markers.push(dojogirl);
+  var oneeyedmatthew = L.marker([923.43, 599.05], {title: 'oneeyedmatthew', icon: npcCombatIcon}).bindTooltip('One-Eyed Matthew', {className: 'tooltip'}).addTo(map);
+  oneeyedmatthew._icon.classList.add('oneeyedmatthew');
+  oneeyedmatthew._icon.classList.add('combat');
+  markers.push(oneeyedmatthew);
+  var aulii = L.marker([932.69, 593.05], {title: 'aulii', icon: npcGenericIcon}).bindTooltip("Auli'i", {className: 'tooltip'}).addTo(map);
+  aulii._icon.classList.add('aulii');
+  markers.push(aulii);
+  var filisione = L.marker([937.69, 593.05], {title: 'filisione', icon: npcGenericIcon}).bindTooltip('Filisione', {className: 'tooltip'}).addTo(map);
+  filisione._icon.classList.add('filisione');
+  oneeyedmatthew._icon.classList.add('combat');
+  markers.push(filisione);
+  var sione = L.marker([942.69, 593.05], {title: 'sione', icon: npcGenericIcon}).bindTooltip('Sione', {className: 'tooltip'}).addTo(map);
+  sione._icon.classList.add('sione');
+  sione._icon.classList.add('combat');
+  markers.push(sione);
+  var vaitiar = L.marker([947.69, 593.05], {title: 'vaitiar', icon: npcGenericIcon}).bindTooltip('Vaitiaré', {className: 'tooltip'}).addTo(map);
+  vaitiar._icon.classList.add('vaitiar');
+  vaitiar._icon.classList.add('combat');
+  markers.push(vaitiar);
+  var taliauli = L.marker([932.69, 598.05], {title: 'taliauli', icon: npcGenericIcon}).bindTooltip("Talia'uli", {className: 'tooltip'}).addTo(map);
+  taliauli._icon.classList.add('taliauli');
+  taliauli._icon.classList.add('combat');
+  markers.push(taliauli);
+  var hoku = L.marker([937.69, 598.05], {title: 'hoku', icon: npcGenericIcon}).bindTooltip('Hoku', {className: 'tooltip'}).addTo(map);
+  hoku._icon.classList.add('hoku');
+  hoku._icon.classList.add('combat');
+  markers.push(hoku);
+  var tihani = L.marker([942.69, 598.05], {title: 'tihani', icon: npcGenericIcon}).bindTooltip('Tihani', {className: 'tooltip'}).addTo(map);
+  tihani._icon.classList.add('tihani');
+  tihani._icon.classList.add('combat');
+  markers.push(tihani);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
