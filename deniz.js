@@ -157,7 +157,7 @@ $(document).ready(function() {
   var saiparkemployee = L.marker([312.5, 344.08], {title: 'saiparkemployee', icon: npcGenericIcon}).bindTooltip('Saipark employee', {className: 'tooltip'}).addTo(map);
   saiparkemployee._icon.classList.add('saiparkemployee');
   markers.push(saiparkemployee);
-  var oldschoolcollector = L.marker([278.56, 345.51], {title: 'oldschoolcollector', icon: npcGenericIcon}).bindTooltip('Old-school Collector', {className: 'tooltip'}).addTo(map);
+  var oldschoolcollector = L.marker([259.56, 142.51], {title: 'oldschoolcollector', icon: npcGenericIcon}).bindTooltip('Old-school Collector', {className: 'tooltip'}).addTo(map);
   oldschoolcollector._icon.classList.add('oldschoolcollector');
   markers.push(oldschoolcollector);
   var saiparkpatron = L.marker([260.13, 352.39], {title: 'saiparkpatron', icon: npcGenericIcon}).bindTooltip('Saipark patron', {className: 'tooltip'}).addTo(map);
