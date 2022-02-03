@@ -149,8 +149,9 @@ $(document).ready(function() {
   var carlota = L.marker([346.5, 319.39], {title: 'carlota', icon: npcGenericIcon}).bindTooltip('Carlota', {className: 'tooltip'}).addTo(map);
   carlota._icon.classList.add('carlota');
   markers.push(carlota);
-  var saiparkvendor = L.marker([321.5, 283.03], {title: 'saiparkvendor', icon: npcGenericIcon}).bindTooltip('Saipark Vendor', {className: 'tooltip'}).addTo(map);
+  var saiparkvendor = L.marker([321.5, 283.03], {title: 'saiparkvendor', icon: npcVendorIcon}).bindTooltip('Saipark Vendor', {className: 'tooltip'}).addTo(map);
   saiparkvendor._icon.classList.add('saiparkvendor');
+  saiparkvendor._icon.classList.add('vendor');
   markers.push(saiparkvendor);
   var temtemologist = L.marker([312.13, 236.68], {title: 'temtemologist', icon: npcGenericIcon}).bindTooltip('Temtemologist', {className: 'tooltip'}).addTo(map);
   temtemologist._icon.classList.add('temtemologist');
