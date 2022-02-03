@@ -299,6 +299,38 @@ $(document).ready(function() {
   var lazyvillager = L.marker([906.12, 313.86], {title: 'lazyvillager', icon: npcGenericIcon}).bindTooltip('Lazy Villager', {className: 'tooltip'}).addTo(map);
   lazyvillager._icon.classList.add('lazyvillager');
   markers.push(lazyvillager);
+  var sanyu = L.marker([905.93, 338.66], {title: 'sanyu', icon: npcGenericIcon}).bindTooltip('Sanyu', {className: 'tooltip'}).addTo(map);
+  sanyu._icon.classList.add('sanyu');
+  markers.push(sanyu);
+  var dembe = L.marker([910.93, 338.66], {title: 'dembe', icon: npcGenericIcon}).bindTooltip('Dembe', {className: 'tooltip'}).addTo(map);
+  dembe._icon.classList.add('dembe');
+  markers.push(dembe);
+  var amateurcook = L.marker([915.93, 338.66], {title: 'amateurcook', icon: npcGenericIcon}).bindTooltip('Amateur Cook', {className: 'tooltip'}).addTo(map);
+  amateurcook._icon.classList.add('amateurcook');
+  markers.push(amateurcook);
+  var politevillager = L.marker([925.07, 291.34], {title: 'politevillager', icon: npcGenericIcon}).bindTooltip('Polite Villager', {className: 'tooltip'}).addTo(map);
+  politevillager._icon.classList.add('politevillager');
+  markers.push(politevillager);
+  var nonplussedvillager = L.marker([930.07, 291.34], {title: 'nonplussedvillager', icon: npcGenericIcon}).bindTooltip('Nonplussed Villager', {className: 'tooltip'}).addTo(map);
+  nonplussedvillager._icon.classList.add('nonplussedvillager');
+  markers.push(nonplussedvillager);
+  var tofia = L.marker([937.47, 263.97], {title: 'tofia', icon: npcClothingIcon}).bindTooltip('Tofia', {className: 'tooltip'}).addTo(map);
+  tofia._icon.classList.add('tofia');
+  tofia._icon.classList.add('clothing');
+  markers.push(tofia);
+  var tofia = L.marker([937.47, 263.97], {title: 'tofia', icon: npcClothingIcon}).bindTooltip('Tofia', {className: 'tooltip'}).addTo(map);
+  tofia._icon.classList.add('tofia');
+  tofia._icon.classList.add('clothing');
+  markers.push(tofia);
+  var bigfootedshopper = L.marker([942.47, 263.97], {title: 'bigfootedshopper', icon: npcGenericIcon}).bindTooltip('Big-Footed Shopper', {className: 'tooltip'}).addTo(map);
+  bigfootedshopper._icon.classList.add('bigfootedshopper');
+  markers.push(bigfootedshopper);
+  var myrislanman = L.marker([843.45, 264.22], {title: 'myrislanman', icon: npcGenericIcon}).bindTooltip('Myrislan Man', {className: 'tooltip'}).addTo(map);
+  myrislanman._icon.classList.add('myrislanman');
+  markers.push(myrislanman);
+  var myrislanwoman = L.marker([854.71, 253.22], {title: 'myrislanwoman', icon: npcGenericIcon}).bindTooltip('Myrislan Woman', {className: 'tooltip'}).addTo(map);
+  myrislanwoman._icon.classList.add('myrislanwoman');
+  markers.push(myrislanwoman);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
