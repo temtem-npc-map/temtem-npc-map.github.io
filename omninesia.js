@@ -336,6 +336,26 @@ $(document).ready(function() {
   mokupunifruitcoop._icon.classList.add('mokupunifruitcoop');
   mokupunifruitcoop._icon.classList.add('fruit');
   markers.push(mokupunifruitcoop);
+  var mokupunivendor = L.marker([889.23, 251.22], {title: 'mokupunivendor', icon: npcVendorIcon}).bindTooltip('Mokupuni Vendor', {className: 'tooltip'}).addTo(map);
+  mokupunivendor._icon.classList.add('mokupunivendor');
+  mokupunivendor._icon.classList.add('vendor');
+  markers.push(mokupunivendor);
+  var doria = L.marker([822.94, 244.21], {title: 'doria', icon: npcMovingIcon}).bindTooltip('Doria', {className: 'tooltip'}).addTo(map);
+  doria._icon.classList.add('doria');
+  doria._icon.classList.add('moving');
+  markers.push(doria);
+  var sisilia = L.marker([785.92, 268.72], {title: 'sisilia', icon: npcGenericIcon}).bindTooltip('Sisilia', {className: 'tooltip'}).addTo(map);
+  sisilia._icon.classList.add('sisilia');
+  markers.push(sisilia);
+  var bingewatcher = L.marker([793.67, 289.97], {title: 'bingewatcher', icon: npcGenericIcon}).bindTooltip('Binge-Watcher', {className: 'tooltip'}).addTo(map);
+  bingewatcher._icon.classList.add('bingewatcher');
+  markers.push(bingewatcher);
+  var mokupunivillager = L.marker([803.71, 222.77], {title: 'mokupunivillager', icon: npcGenericIcon}).bindTooltip('Mokupuni Villager', {className: 'tooltip'}).addTo(map);
+  mokupunivillager._icon.classList.add('mokupunivillager');
+  markers.push(mokupunivillager);
+  var musicologist = L.marker([804.96, 219.4], {title: 'musicologist', icon: npcGenericIcon}).bindTooltip('Musicologist', {className: 'tooltip'}).addTo(map);
+  musicologist._icon.classList.add('musicologist');
+  markers.push(musicologist);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
