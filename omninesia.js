@@ -34,6 +34,7 @@ $(document).ready(function() {
   var npcFurnitureIcon = new TemMarker({iconUrl: 'images/icons/npc-furniture.png'});
   var npcCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-combat.png'});
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
+  var npcBreederIcon = new TemMarker({iconUrl: 'images/icons/npc-breeder.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   
@@ -225,11 +226,13 @@ $(document).ready(function() {
   var freetemmanager = L.marker([925.74, 498.71], {title: 'freetemmanager', icon: npcGenericIcon}).bindTooltip('FreeTem! Manager', {className: 'tooltip'}).addTo(map);
   freetemmanager._icon.classList.add('freetemmanager');
   markers.push(freetemmanager);
-  var temtembreeder = L.marker([951.21, 529.46], {title: 'temtembreeder', icon: npcGenericIcon}).bindTooltip('Temtem Breeder', {className: 'tooltip'}).addTo(map);
+  var temtembreeder = L.marker([951.21, 529.46], {title: 'temtembreeder', icon: npcBreederIcon}).bindTooltip('Temtem Breeder', {className: 'tooltip'}).addTo(map);
   temtembreeder._icon.classList.add('temtembreeder');
+  temtembreeder._icon.classList.add('breeder');
   markers.push(temtembreeder);
-  var breecenshopkeeper = L.marker([956.21, 529.46], {title: 'breecenshopkeeper', icon: npcGenericIcon}).bindTooltip('BreeCen Shopkeeper', {className: 'tooltip'}).addTo(map);
+  var breecenshopkeeper = L.marker([956.21, 529.46], {title: 'breecenshopkeeper', icon: npcBreederIcon}).bindTooltip('BreeCen Shopkeeper', {className: 'tooltip'}).addTo(map);
   breecenshopkeeper._icon.classList.add('breecenshopkeeper');
+  breecenshopkeeper._icon.classList.add('breeder');
   markers.push(breecenshopkeeper);
   var fateia = L.marker([874.7, 489.96], {title: 'fateia', icon: npcCombatIcon}).bindTooltip('Fateia', {className: 'tooltip'}).addTo(map);
   fateia._icon.classList.add('fateia');
