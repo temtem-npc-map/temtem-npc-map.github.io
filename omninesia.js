@@ -273,7 +273,7 @@ $(document).ready(function() {
   maka._icon.classList.add('maka');
   maka._icon.classList.add('combat');
   markers.push(maka);
-  var tamala = L.marker([919.05, 430.12], {title: 'tamala', icon: npcCombatIcon}).bindTooltip('Tamala', {className: 'tooltip'}).addTo(map);
+  var tamala = L.marker([919.05, 430.12], {title: 'tamala', icon: npcMovingCombatIcon}).bindTooltip('Tamala', {className: 'tooltip'}).addTo(map);
   tamala._icon.classList.add('tamala');
   tamala._icon.classList.add('moving');
   tamala._icon.classList.add('combat');
