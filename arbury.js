@@ -161,7 +161,7 @@ $(document).ready(function() {
   var stanley = L.marker([443.99, 242.19], {title: 'stanley', icon: npcGenericIcon}).bindTooltip('Stanley', {className: 'tooltip'}).addTo(map);
   stanley._icon.classList.add('stanley');
   markers.push(stanley);
-  var loganstours = L.marker([488.25, 264.73], {title: 'loganstours', icon: npcGenericIcon}).bindTooltip('Logan's Tours', {className: 'tooltip'}).addTo(map);
+  var loganstours = L.marker([488.25, 264.73], {title: 'loganstours', icon: npcGenericIcon}).bindTooltip("Logan's Tours", {className: 'tooltip'}).addTo(map);
   loganstours._icon.classList.add('loganstours');
   markers.push(loganstours);
   var hannah = L.marker([420.12, 352.22], {title: 'hannah', icon: npcGenericIcon}).bindTooltip('Hannah', {className: 'tooltip'}).addTo(map);
