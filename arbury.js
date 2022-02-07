@@ -36,6 +36,7 @@ $(document).ready(function() {
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
+  var npcAinaIcon = new TemMarker({iconUrl: 'images/icons/aina.png'});  
   
   var stevedoresteven = L.marker([310.98, 263.8], {title: 'stevedoresteven', icon: npcMovingIcon}).bindTooltip('Stevedore Steven', {className: 'tooltip'}).addTo(map);
   stevedoresteven._icon.classList.add('stevedoresteven');
@@ -131,7 +132,7 @@ $(document).ready(function() {
   var sienna = L.marker([369.63, 256.4], {title: 'sienna', icon: npcGenericIcon}).bindTooltip('Sienna', {className: 'tooltip'}).addTo(map);
   sienna._icon.classList.add('sienna');
   markers.push(sienna);
-  var aina = L.marker([369.63, 259.4], {title: 'aina', icon: npcCombatIcon}).bindTooltip('Aina', {className: 'tooltip'}).addTo(map);
+  var aina = L.marker([369.63, 259.4], {title: 'aina', icon: npcAinaIcon}).bindTooltip('Aina', {className: 'tooltip'}).addTo(map);
   aina._icon.classList.add('aina');
   aina._icon.classList.add('combat');
   markers.push(aina);
