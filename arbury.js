@@ -267,6 +267,21 @@ $(document).ready(function() {
   var bighugh = L.marker([499.69, 369], {title: 'bighugh', icon: npcGenericIcon}).bindTooltip('Big Hugh', {className: 'tooltip'}).addTo(map);
   bighugh._icon.classList.add('bighugh');
   markers.push(bighugh);
+  var ian = L.marker([463.38, 366.96], {title: 'ian', icon: npcGenericIcon}).bindTooltip('Ian', {className: 'tooltip'}).addTo(map);
+  ian._icon.classList.add('ian');
+  markers.push(ian);
+  var patrick = L.marker([466.38, 366.96], {title: 'patrick', icon: npcGenericIcon}).bindTooltip('Patrick', {className: 'tooltip'}).addTo(map);
+  patrick._icon.classList.add('patrick');
+  markers.push(patrick);
+  var rigoberta = L.marker([455.88, 364.71], {title: 'rigoberta', icon: npcGenericIcon}).bindTooltip('Rigoberta', {className: 'tooltip'}).addTo(map);
+  rigoberta._icon.classList.add('rigoberta');
+  markers.push(rigoberta);
+  var ermengildo = L.marker([455.88, 367.71], {title: 'ermengildo', icon: npcGenericIcon}).bindTooltip('Ermengildo', {className: 'tooltip'}).addTo(map);
+  ermengildo._icon.classList.add('ermengildo');
+  markers.push(ermengildo);
+  var saturnino = L.marker([455.88, 370.71], {title: 'saturnino', icon: npcGenericIcon}).bindTooltip('Saturnino', {className: 'tooltip'}).addTo(map);
+  saturnino._icon.classList.add('saturnino');
+  markers.push(saturnino);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
