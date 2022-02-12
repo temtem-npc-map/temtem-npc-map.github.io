@@ -84,7 +84,7 @@ $(document).ready(function() {
   markers.push(oriol);
   var gabrielthegray = L.marker([806.25, 384.38], {title: 'gabrielthegray', icon: npcCombatIcon}).bindTooltip('Gabriel the Gray', {className: 'tooltip'}).addTo(map);
   gabrielthegray._icon.classList.add('gabrielthegray');
-  abrielthegray._icon.classList.add('combat');
+  gabrielthegray._icon.classList.add('combat');
   markers.push(gabrielthegray);
   var nicoletta = L.marker([820.75, 370.94], {title: 'nicoletta', icon: npcGenericIcon}).bindTooltip('Nicoletta', {className: 'tooltip'}).addTo(map);
   nicoletta._icon.classList.add('nicoletta');
