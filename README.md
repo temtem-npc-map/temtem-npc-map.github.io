@@ -83,6 +83,6 @@ The best way you can help is to contribute to the [Google Form](https://forms.gl
 - [X] Upload remaining island maps
 - [X] Form backlog catch-up
 - [X] Update metadata for SEO
-- [ ] Fix bootstrap issue on list of islands on homepage
+- [X] Fix bootstrap issue on list of islands on homepage
 - [ ] Add location markers/labels
-- [ ] Add fightable info for existing NPCs
+- [X] Add fightable info for existing NPCs
