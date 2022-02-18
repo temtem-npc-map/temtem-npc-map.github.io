@@ -37,6 +37,7 @@ $(document).ready(function() {
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   var npcAinaIcon = new TemMarker({iconUrl: 'images/icons/aina.png'});  
+  var npcMeleeGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-melee-guard.png'});
   
   var stevedoresteven = L.marker([310.98, 263.8], {title: 'stevedoresteven', icon: npcMovingIcon}).bindTooltip('Stevedore Steven', {className: 'tooltip'}).addTo(map);
   stevedoresteven._icon.classList.add('stevedoresteven');
