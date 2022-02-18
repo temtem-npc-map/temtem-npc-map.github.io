@@ -35,7 +35,8 @@ $(document).ready(function() {
   var npcCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-combat.png'});
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
-  var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
+  var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'}); 
+  var npcYareniIcon = new TemMarker({iconUrl: 'images/icons/yareni.png'});  
   
   var njema = L.marker([672.75, 373], {title: 'njema', icon: npcGenericIcon}).bindTooltip('Njema', {className: 'tooltip'}).addTo(map);
   njema._icon.classList.add('njema');
@@ -125,18 +126,38 @@ $(document).ready(function() {
   var defeatedtamer = L.marker([824.02, 418.21], {title: 'defeatedtamer', icon: npcGenericIcon}).bindTooltip('Defeated Tamer', {className: 'tooltip'}).addTo(map);
   defeatedtamer._icon.classList.add('defeatedtamer');
   markers.push(defeatedtamer);
-  var mitotl = L.marker([833.47, 462.67], {title: 'mitotl', icon: npcCombatIcon}).bindTooltip('Mitotl', {className: 'tooltip'}).addTo(map);
+  var mitotl = L.marker([833.47, 432.67], {title: 'mitotl', icon: npcCombatIcon}).bindTooltip('Mitotl', {className: 'tooltip'}).addTo(map);
   mitotl._icon.classList.add('mitotl');
   mitotl._icon.classList.add('combat');
   markers.push(mitotl);
-  var atlatl = L.marker([833.47, 465.67], {title: 'atlatl', icon: npcCombatIcon}).bindTooltip('Atlatl', {className: 'tooltip'}).addTo(map);
+  var atlatl = L.marker([833.47, 435.67], {title: 'atlatl', icon: npcCombatIcon}).bindTooltip('Atlatl', {className: 'tooltip'}).addTo(map);
   atlatl._icon.classList.add('atlatl');
   atlatl._icon.classList.add('combat');
   markers.push(atlatl);
-  var dojominder = L.marker([833.47, 468.67], {title: 'dojominder', icon: npcMovingIcon}).bindTooltip('Dojo Minder', {className: 'tooltip'}).addTo(map);
+  var dojominder = L.marker([833.47, 438.67], {title: 'dojominder', icon: npcMovingIcon}).bindTooltip('Dojo Minder', {className: 'tooltip'}).addTo(map);
   dojominder._icon.classList.add('dojominder');
   dojominder._icon.classList.add('moving');
   markers.push(dojominder);
+  var cactonki = L.marker([833.47, 441.67], {title: 'cactonki', icon: npcCombatIcon}).bindTooltip('Cactonki', {className: 'tooltip'}).addTo(map);
+  cactonki._icon.classList.add('cactonki');
+  cactonki._icon.classList.add('combat');
+  markers.push(cactonki);
+  var cactonkiscompanion = L.marker([833.47, 444.67], {title: 'cactonkiscompanion', icon: npcCombatIcon}).bindTooltip("Cactonki's Companion", {className: 'tooltip'}).addTo(map);
+  cactonkiscompanion._icon.classList.add('cactonkiscompanion');
+  cactonkiscompanion._icon.classList.add('combat');
+  markers.push(cactonkiscompanion);
+  var tonali = L.marker([833.47, 447.67], {title: 'tonali', icon: npcCombatIcon}).bindTooltip('Tonali', {className: 'tooltip'}).addTo(map);
+  tonali._icon.classList.add('tonali');
+  tonali._icon.classList.add('combat');
+  markers.push(tonali);
+  var tonaliscompanion = L.marker([833.47, 450.67], {title: 'tonaliscompanion', icon: npcCombatIcon}).bindTooltip("Tonali's Companion??", {className: 'tooltip'}).addTo(map);
+  tonaliscompanion._icon.classList.add('tonaliscompanion');
+  tonaliscompanion._icon.classList.add('combat');
+  markers.push(tonaliscompanion);
+  var yareni = L.marker([836.47, 430.9], {title: 'yareni', icon: npcYareniIcon}).bindTooltip('Yareni', {className: 'tooltip'}).addTo(map);
+  yareni._icon.classList.add('yareni');
+  yareni._icon.classList.add('combat');
+  markers.push(yareni);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
