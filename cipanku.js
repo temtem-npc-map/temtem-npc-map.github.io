@@ -36,6 +36,7 @@ $(document).ready(function() {
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
+  var npcDigitalGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-digital-guard.png'});
   
   var temporiumvendor = L.marker([331, 186.56], {title: 'temporiumvendor', icon: npcVendorIcon}).bindTooltip('Temporium Vendor', {className: 'tooltip'}).addTo(map);
   temporiumvendor._icon.classList.add('temporiumvendor');
