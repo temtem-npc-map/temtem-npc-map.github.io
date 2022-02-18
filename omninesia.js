@@ -40,6 +40,7 @@ $(document).ready(function() {
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});
   var npcTihaniIcon = new TemMarker({iconUrl: 'images/icons/tihani.png'});  
   var npcRawiriIcon = new TemMarker({iconUrl: 'images/icons/rawiri.png'});  
+  var npcFireGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-fire-guard.png'});
   
   var bwanbale = L.marker([568.38, 302], {title: 'bwanbale', icon: npcGenericIcon}).bindTooltip('Bwanbale', {className: 'tooltip'}).addTo(map);
   bwanbale._icon.classList.add('bwanbale');
