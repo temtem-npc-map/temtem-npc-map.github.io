@@ -555,3 +555,7 @@ a {
 a:hover, a:focus, a:active {
   color: #adfffe;
 }
+
+.small-image {
+  width: 100%;
+}
