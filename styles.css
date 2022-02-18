@@ -547,3 +547,11 @@ body.privacy footer {
   left: 0;
   right: 0;
 }
+
+a {
+  color: #ffb544;
+}
+
+a:hover, a:focus, a:active {
+  color: #adfffe;
+}
