@@ -38,6 +38,7 @@ $(document).ready(function() {
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   var npcSophiaIcon = new TemMarker({iconUrl: 'images/icons/sophia.png'});  
   var npcAinaIcon = new TemMarker({iconUrl: 'images/icons/aina.png'});  
+  var npcWaterGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-water-guard.png'});
   
   var agustin = L.marker([638.13, 206.97], {title: 'agustin', icon: npcGenericIcon}).bindTooltip('Agustin', {className: 'tooltip'}).addTo(map);
   agustin._icon.classList.add('agustin');
@@ -765,19 +766,19 @@ $(document).ready(function() {
   var professornakamura = L.marker([652.4, 722.2], {title: 'professornakamura', icon: npcGenericIcon}).bindTooltip('Professor Nakamura', {className: 'tooltip'}).addTo(map);
   professornakamura._icon.classList.add('professornakamura');
   markers.push(professornakamura);
-  var seaqueenmaid = L.marker([657.9, 723.1], {title: 'seaqueenmaid', icon: npcCombatIcon}).bindTooltip('Sea-Queen Maid', {className: 'tooltip'}).addTo(map);
+  var seaqueenmaid = L.marker([657.9, 723.1], {title: 'seaqueenmaid', icon: npcWaterGuardIcon}).bindTooltip('Sea-Queen Maid', {className: 'tooltip'}).addTo(map);
   seaqueenmaid._icon.classList.add('seaqueenmaid');
   seaqueenmaid._icon.classList.add('combat');
   markers.push(seaqueenmaid);
-  var seaqueeninitiate = L.marker([661.88, 715.08], {title: 'seaqueeninitiate', icon: npcCombatIcon}).bindTooltip('Sea-Queen Initiate', {className: 'tooltip'}).addTo(map);
+  var seaqueeninitiate = L.marker([661.88, 715.08], {title: 'seaqueeninitiate', icon: npcWaterGuardIcon}).bindTooltip('Sea-Queen Initiate', {className: 'tooltip'}).addTo(map);
   seaqueeninitiate._icon.classList.add('seaqueeninitiate');
   seaqueeninitiate._icon.classList.add('combat');
   markers.push(seaqueeninitiate);
-  var seaqueenpriestess = L.marker([668.7, 722.8], {title: 'seaqueenpriestess', icon: npcCombatIcon}).bindTooltip('Sea-Queen Priestess', {className: 'tooltip'}).addTo(map);
+  var seaqueenpriestess = L.marker([668.7, 722.8], {title: 'seaqueenpriestess', icon: npcWaterGuardIcon}).bindTooltip('Sea-Queen Priestess', {className: 'tooltip'}).addTo(map);
   seaqueenpriestess._icon.classList.add('seaqueenpriestess');
   seaqueenpriestess._icon.classList.add('combat');
   markers.push(seaqueenpriestess);
-  var seaqueenmatriarch = L.marker([673.3, 719.4], {title: 'seaqueenmatriarch', icon: npcCombatIcon}).bindTooltip('Sea-Queen Matriarch', {className: 'tooltip'}).addTo(map);
+  var seaqueenmatriarch = L.marker([673.3, 719.4], {title: 'seaqueenmatriarch', icon: npcWaterGuardIcon}).bindTooltip('Sea-Queen Matriarch', {className: 'tooltip'}).addTo(map);
   seaqueenmatriarch._icon.classList.add('seaqueenmatriarch');
   seaqueenmatriarch._icon.classList.add('combat');
   markers.push(seaqueenmatriarch);
