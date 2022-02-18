@@ -37,6 +37,7 @@ $(document).ready(function() {
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'}); 
   var npcYareniIcon = new TemMarker({iconUrl: 'images/icons/yareni.png'});  
+  var npcCrystalGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-crystal-guard.png'});
   
   var agustn = L.marker([826.95, 542.88], {title: 'agustn', icon: npcGenericIcon}).bindTooltip('Agustín', {className: 'tooltip'}).addTo(map);
   agustn._icon.classList.add('agustn');
