@@ -37,6 +37,7 @@ $(document).ready(function() {
   var npcMovingCombatIcon = new TemMarker({iconUrl: 'images/icons/npc-moving-combat.png'});
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});
+  var npcEarthGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-earth-guard.png'});
   
   var otesha = L.marker([415.6, 611.3], {title:"otesha", icon: npcGenericIcon}).bindTooltip("Otesha", {className: 'tooltip'}).addTo(map);
   otesha._icon.classList.add("otesha");
