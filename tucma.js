@@ -150,7 +150,7 @@ $(document).ready(function() {
   tonali._icon.classList.add('tonali');
   tonali._icon.classList.add('combat');
   markers.push(tonali);
-  var tonaliscompanion = L.marker([833.47, 450.67], {title: 'tonaliscompanion', icon: npcCombatIcon}).bindTooltip("Tonali's Companion??", {className: 'tooltip'}).addTo(map);
+  var tonaliscompanion = L.marker([833.47, 440.67], {title: 'tonaliscompanion', icon: npcCombatIcon}).bindTooltip("Tonali's Companion??", {className: 'tooltip'}).addTo(map);
   tonaliscompanion._icon.classList.add('tonaliscompanion');
   tonaliscompanion._icon.classList.add('combat');
   markers.push(tonaliscompanion);
