@@ -473,18 +473,18 @@ $(document).ready(function() {
   var namono = L.marker([568.23, 302], {title: 'namono', icon: npcGenericIcon}).bindTooltip('Namono', {className: 'tooltip'}).addTo(map);
   namono._icon.classList.add('namono');
   markers.push(namono);
-  var banyangardener = L.marker([663.53, 272.66], {title: 'banyangardener', icon: npcGenericIcon}).bindTooltip('Banyan Gardener', {className: 'tooltip'}).addTo(map);
+  var banyangardener = L.marker([512.88, 159.77], {title: 'banyangardener', icon: npcGenericIcon}).bindTooltip('Banyan Gardener', {className: 'tooltip'}).addTo(map);
   banyangardener._icon.classList.add('banyangardener');
   markers.push(banyangardener);
-  var sefita = L.marker([666.53, 272.66], {title: 'sefita', icon: npcGenericIcon}).bindTooltip('Sefita', {className: 'tooltip'}).addTo(map);
+  var sefita = L.marker([534.63, 170.4], {title: 'sefita', icon: npcGenericIcon}).bindTooltip('Sefita', {className: 'tooltip'}).addTo(map);
   sefita._icon.classList.add('sefita');
   markers.push(sefita);
-  var tani = L.marker([663.53, 275.66], {title: 'tani', icon: npcGenericIcon}).bindTooltip('Tani', {className: 'tooltip'}).addTo(map);
+  var tani = L.marker([625.06, 149.16], {title: 'tani', icon: npcGenericIcon}).bindTooltip('Tani', {className: 'tooltip'}).addTo(map);
   tani._icon.classList.add('tani');
   markers.push(tani);
-  var omninesia = L.marker([666.53, 275.66], {title: 'omninesia', icon: npcGenericIcon}).bindTooltip('Omninesia', {className: 'tooltip'}).addTo(map);
-  omninesia._icon.classList.add('omninesia');
-  markers.push(omninesia);
+  var omninesianreporter = L.marker([632.16, 198.17], {title: 'omninesianreporter', icon: npcGenericIcon}).bindTooltip('Omninesian Reporter', {className: 'tooltip'}).addTo(map);
+  omninesianreporter._icon.classList.add('omninesianreporter');
+  markers.push(omninesianreporter);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
