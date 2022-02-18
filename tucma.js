@@ -38,12 +38,6 @@ $(document).ready(function() {
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'}); 
   var npcYareniIcon = new TemMarker({iconUrl: 'images/icons/yareni.png'});  
   
-  var njema = L.marker([672.75, 373], {title: 'njema', icon: npcGenericIcon}).bindTooltip('Njema', {className: 'tooltip'}).addTo(map);
-  njema._icon.classList.add('njema');
-  markers.push(njema);
-  var taumafa = L.marker([760.38, 410], {title: 'taumafa', icon: npcGenericIcon}).bindTooltip('Taumafa', {className: 'tooltip'}).addTo(map);
-  taumafa._icon.classList.add('taumafa');
-  markers.push(taumafa);
   var agustn = L.marker([826.95, 542.88], {title: 'agustn', icon: npcGenericIcon}).bindTooltip('Agustín', {className: 'tooltip'}).addTo(map);
   agustn._icon.classList.add('agustn');
   markers.push(agustn);
