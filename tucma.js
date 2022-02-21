@@ -420,7 +420,7 @@ $(document).ready(function() {
   var chaak = L.marker([644.5, 565.73], {title: 'chaak', icon: npcGenericIcon}).bindTooltip('Chaak', {className: 'tooltip'}).addTo(map);
   chaak._icon.classList.add('chaak');
   markers.push(chaak);
-  var tucmanicurator = L.marker([558.25, 600.11], {title: 'tucmanicurator', icon: npcCombatIcon}).bindTooltip('Tucmani Curator', {className: 'tooltip'}).addTo(map);
+  var tucmanicurator = L.marker([558.25, 600.11], {title: 'tucmanicurator', icon: npcMovingCombatIcon}).bindTooltip('Tucmani Curator', {className: 'tooltip'}).addTo(map);
   tucmanicurator._icon.classList.add('tucmanicurator');
   tucmanicurator._icon.classList.add('moving');
   tucmanicurator._icon.classList.add('combat');
@@ -444,7 +444,7 @@ $(document).ready(function() {
   chaneki._icon.classList.add('chaneki');
   chaneki._icon.classList.add('combat');
   markers.push(chaneki);
-  var chanekiscompanion = L.marker([553.72, 520.75], {title: 'chanekiscompanion', icon: npcCombatIcon}).bindTooltip('Chaneki's Companion', {className: 'tooltip'}).addTo(map);
+  var chanekiscompanion = L.marker([553.72, 520.75], {title: 'chanekiscompanion', icon: npcCombatIcon}).bindTooltip("Chaneki's Companion", {className: 'tooltip'}).addTo(map);
   chanekiscompanion._icon.classList.add('chanekiscompanion');
   chanekiscompanion._icon.classList.add('combat');
   markers.push(chanekiscompanion);
