@@ -189,7 +189,7 @@ $(document).ready(function() {
   var lidia = L.marker([692.08, 351.53], {title: 'lidia', icon: npcGenericIcon}).bindTooltip('Lidia', {className: 'tooltip'}).addTo(map);
   lidia._icon.classList.add('lidia');
   markers.push(lidia);
-  var dayami = L.marker([692.08, 348.53], {title: 'dayami', icon: npcGenericIcon}).bindTooltip('Dayami', {className: 'tooltip'}).addTo(map);
+  var dayami = L.marker([692.08, 351.53], {title: 'dayami', icon: npcGenericIcon}).bindTooltip('Dayami', {className: 'tooltip'}).addTo(map);
   dayami._icon.classList.add('dayami');
   markers.push(dayami);
   var ollin = L.marker([686.83, 351.53], {title: 'ollin', icon: npcGenericIcon}).bindTooltip('Ollin', {className: 'tooltip'}).addTo(map);
