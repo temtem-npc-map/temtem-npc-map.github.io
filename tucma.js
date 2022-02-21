@@ -281,7 +281,7 @@ $(document).ready(function() {
   var retiredminer = L.marker([667.78, 460.24], {title: 'retiredminer', icon: npcGenericIcon}).bindTooltip('Retired Miner', {className: 'tooltip'}).addTo(map);
   retiredminer._icon.classList.add('retiredminer');
   markers.push(retiredminer);
-  var smithsguardrep = L.marker([675.03, 468.87], {title: 'smithsguardrep', icon: npcGenericIcon}).bindTooltip('Smith's Guard Rep', {className: 'tooltip'}).addTo(map);
+  var smithsguardrep = L.marker([675.03, 468.87], {title: 'smithsguardrep', icon: npcGenericIcon}).bindTooltip("Smith's Guard Rep", {className: 'tooltip'}).addTo(map);
   smithsguardrep._icon.classList.add('smithsguardrep');
   markers.push(smithsguardrep);
   var guildmasterjatziri = L.marker([678.03, 468.87], {title: 'guildmasterjatziri', icon: npcGenericIcon}).bindTooltip('Guildmaster Jatziri', {className: 'tooltip'}).addTo(map);
