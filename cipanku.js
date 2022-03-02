@@ -420,6 +420,46 @@ $(document).ready(function() {
   var yuri = L.marker([539, 209.5], {title: 'yuri', icon: npcGenericIcon}).bindTooltip('Yuri', {className: 'tooltip'}).addTo(map);
   yuri._icon.classList.add('yuri');
   markers.push(yuri);
+  var benjamin = L.marker([447.8, 291.5], {title: 'benjamin', icon: npcGenericIcon}).bindTooltip('Benjamin', {className: 'tooltip'}).addTo(map);
+  benjamin._icon.classList.add('benjamin');
+  markers.push(benjamin);
+  var cipankuguide = L.marker([362.1, 182.6], {title: 'cipankuguide', icon: npcGenericIcon}).bindTooltip('Cipanku Guide', {className: 'tooltip'}).addTo(map);
+  cipankuguide._icon.classList.add('cipankuguide');
+  markers.push(cipankuguide);
+  var criticalapprentice = L.marker([410.4, 213.9], {title: 'criticalapprentice', icon: npcGenericIcon}).bindTooltip('Critical Apprentice', {className: 'tooltip'}).addTo(map);
+  criticalapprentice._icon.classList.add('criticalapprentice');
+  markers.push(criticalapprentice);
+  var dojousher = L.marker([414.4, 268], {title: 'dojousher', icon: npcGenericIcon}).bindTooltip('Dojo Usher', {className: 'tooltip'}).addTo(map);
+  dojousher._icon.classList.add('dojousher');
+  markers.push(dojousher);
+  var elderlyneoedan = L.marker([408.8, 251.4], {title: 'elderlyneoedan', icon: npcGenericIcon}).bindTooltip('Elderly Neoedan', {className: 'tooltip'}).addTo(map);
+  elderlyneoedan._icon.classList.add('elderlyneoedan');
+  markers.push(elderlyneoedan);
+  var joji = L.marker([357.8, 195.4], {title: 'joji', icon: npcGenericIcon}).bindTooltip('Joji', {className: 'tooltip'}).addTo(map);
+  joji._icon.classList.add('joji');
+  markers.push(joji);
+  var naoko = L.marker([361.4, 146.1], {title: 'naoko', icon: npcGenericIcon}).bindTooltip('Naoko', {className: 'tooltip'}).addTo(map);
+  naoko._icon.classList.add('naoko');
+  markers.push(naoko);
+  var neoedantamer = L.marker([382.3, 236.8], {title: 'neoedantamer', icon: npcGenericIcon}).bindTooltip('Neoedan Tamer', {className: 'tooltip'}).addTo(map);
+  neoedantamer._icon.classList.add('neoedantamer');
+  markers.push(neoedantamer);
+  var viniola = L.marker([356.5, 295.3], {title: 'viniola', icon: npcMovingIcon}).bindTooltip('Viniola', {className: 'tooltip'}).addTo(map);
+  viniola._icon.classList.add('viniola');
+  viniola._icon.classList.add('moving');
+  markers.push(viniola);
+  var visitingbreeder = L.marker([371.9, 200], {title: 'visitingbreeder', icon: npcGenericIcon}).bindTooltip('Visiting Breeder', {className: 'tooltip'}).addTo(map);
+  visitingbreeder._icon.classList.add('visitingbreeder');
+  markers.push(visitingbreeder);
+  var wisegrannie = L.marker([439.3, 261.6], {title: 'wisegrannie', icon: npcGenericIcon}).bindTooltip('Wise Grannie', {className: 'tooltip'}).addTo(map);
+  wisegrannie._icon.classList.add('wisegrannie');
+  markers.push(wisegrannie);
+  var yayoy = L.marker([461.3, 249.1], {title: 'yayoy', icon: npcGenericIcon}).bindTooltip('Yayoy', {className: 'tooltip'}).addTo(map);
+  yayoy._icon.classList.add('yayoy');
+  markers.push(yayoy);
+  var yoko = L.marker([461.1, 255.4], {title: 'yoko', icon: npcGenericIcon}).bindTooltip('Yoko', {className: 'tooltip'}).addTo(map);
+  yoko._icon.classList.add('yoko');
+  markers.push(yoko);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
