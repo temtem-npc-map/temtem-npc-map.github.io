@@ -37,6 +37,8 @@ $(document).ready(function() {
   var npcProfessorKonstantinosIcon = new TemMarker({iconUrl: 'images/icons/professor-konstantinos.png'});
   var npcAdiaTurayIcon = new TemMarker({iconUrl: 'images/icons/adia-turay.png'});  
   var npcAinaIcon = new TemMarker({iconUrl: 'images/icons/aina.png'});  
+  var npcPercivalIcon = new TemMarker({iconUrl: 'images/icons/percival.png'});  
+  var npcMurdagIcon = new TemMarker({iconUrl: 'images/icons/murdag.png'});  
   var npcMeleeGuardIcon = new TemMarker({iconUrl: 'images/icons/npc-melee-guard.png'});
   
   var stevedoresteven = L.marker([310.98, 263.8], {title: 'stevedoresteven', icon: npcMovingIcon}).bindTooltip('Stevedore Steven', {className: 'tooltip'}).addTo(map);
@@ -196,7 +198,7 @@ $(document).ready(function() {
   var adam = L.marker([470.37, 297.74], {title: 'adam', icon: npcGenericIcon}).bindTooltip('Adam', {className: 'tooltip'}).addTo(map);
   adam._icon.classList.add('adam');
   markers.push(adam);
-  var percival = L.marker([466.32, 282.57], {title: 'percival', icon: npcCombatIcon}).bindTooltip('Percival', {className: 'tooltip'}).addTo(map);
+  var percival = L.marker([466.32, 282.57], {title: 'percival', icon: npcPercivalIcon}).bindTooltip('Percival', {className: 'tooltip'}).addTo(map);
   percival._icon.classList.add('percival');
   percival._icon.classList.add('combat');
   markers.push(percival);
@@ -491,7 +493,7 @@ $(document).ready(function() {
   murphy._icon.classList.add('murphy');
   murphy._icon.classList.add('combat');
   markers.push(murphy);
-  var murdag = L.marker([655.56, 494.28], {title: 'murdag', icon: npcCombatIcon}).bindTooltip('Murdag', {className: 'tooltip'}).addTo(map);
+  var murdag = L.marker([655.56, 494.28], {title: 'murdag', icon: npcMurdagIcon}).bindTooltip('Murdag', {className: 'tooltip'}).addTo(map);
   murdag._icon.classList.add('murdag');
   murdag._icon.classList.add('combat');
   markers.push(murdag);
