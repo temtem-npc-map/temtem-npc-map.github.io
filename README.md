@@ -89,3 +89,4 @@ The best way you can help is to contribute to the [Google Form](https://forms.gl
 - [ ] Add location markers/labels
 - [ ] Add dojo maps
 - [ ] Cookie banner
+- [ ] Fix menu accessibility (tabs)
