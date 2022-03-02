@@ -84,5 +84,8 @@ The best way you can help is to contribute to the [Google Form](https://forms.gl
 - [X] Form backlog catch-up
 - [X] Update metadata for SEO
 - [X] Fix bootstrap issue on list of islands on homepage
-- [ ] Add location markers/labels
 - [X] Add fightable info for existing NPCs
+- [ ] Finish adding base NPCs
+- [ ] Add location markers/labels
+- [ ] Add dojo maps
+- [ ] Cookie banner
