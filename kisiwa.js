@@ -674,6 +674,37 @@ $(document).ready(function() {
   var peyton = L.marker([715.9, 932.9], {title: 'peyton', icon: npcGenericIcon}).bindTooltip('Peyton', {className: 'tooltip'}).addTo(map);
   peyton._icon.classList.add('peyton');
   markers.push(peyton);
+  var adedayo = L.marker([272.5, 357.5], {title: 'adedayo', icon: npcGenericIcon}).bindTooltip('Adedayo', {className: 'tooltip'}).addTo(map);
+  adedayo._icon.classList.add('adedayo');
+  markers.push(adedayo);
+  var aminatou = L.marker([233.6, 419.9], {title: 'aminatou', icon: npcGenericIcon}).bindTooltip('Aminatou', {className: 'tooltip'}).addTo(map);
+  aminatou._icon.classList.add('aminatou');
+  markers.push(aminatou);
+  var clandestinevendor = L.marker([242.8, 440.9], {title: 'clandestinevendor', icon: npcVendorIcon}).bindTooltip('Clandestine Vendor', {className: 'tooltip'}).addTo(map);
+  clandestinevendor._icon.classList.add('clandestinevendor');
+  clandestinevendor._icon.classList.add('vendor');
+  markers.push(clandestinevendor);
+  var kakweja = L.marker([162.8, 459.1], {title: 'kakweja', icon: npcGenericIcon}).bindTooltip('Kakweja', {className: 'tooltip'}).addTo(map);
+  kakweja._icon.classList.add('kakweja');
+  markers.push(kakweja);
+  var chinyere = L.marker([158.8, 459.1], {title: 'chinyere', icon: npcGenericIcon}).bindTooltip('Chinyere', {className: 'tooltip'}).addTo(map);
+  chinyere._icon.classList.add('chinyere');
+  markers.push(chinyere);
+  var kihuzu = L.marker([142.4, 443.5], {title: 'kihuzu', icon: npcGenericIcon}).bindTooltip('Kihuzu', {className: 'tooltip'}).addTo(map);
+  kihuzu._icon.classList.add('kihuzu');
+  markers.push(kihuzu);
+  var mwangaa = L.marker([240.1, 558.8], {title: 'mwangaa', icon: npcGenericIcon}).bindTooltip('Mwangaa', {className: 'tooltip'}).addTo(map);
+  mwangaa._icon.classList.add('mwangaa');
+  markers.push(mwangaa);
+  var tanesha = L.marker([236.1, 558.4], {title: 'tanesha', icon: npcGenericIcon}).bindTooltip('Tanesha', {className: 'tooltip'}).addTo(map);
+  tanesha._icon.classList.add('tanesha');
+  markers.push(tanesha);
+  var furaha = L.marker([296.3, 535.4], {title: 'furaha', icon: npcGenericIcon}).bindTooltip('Furaha', {className: 'tooltip'}).addTo(map);
+  furaha._icon.classList.add('furaha');
+  markers.push(furaha);
+  var furaha = L.marker([296.3, 535.4], {title: 'furaha', icon: npcGenericIcon}).bindTooltip('Furaha', {className: 'tooltip'}).addTo(map);
+  furaha._icon.classList.add('furaha');
+  markers.push(furaha)
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
