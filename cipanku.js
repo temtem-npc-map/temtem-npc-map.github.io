@@ -795,6 +795,9 @@ $(document).ready(function() {
   var kikillo = L.marker([442, 234.22], {title: 'kikillo', icon: npcGenericIcon}).bindTooltip('Kikillo', {className: 'tooltip'}).addTo(map);
   kikillo._icon.classList.add('kikillo');
   markers.push(kikillo);
+  var restingfreelancer = L.marker([581, 186], {title: 'restingfreelancer', icon: npcGenericIcon}).bindTooltip('Resting Freelancer', {className: 'tooltip'}).addTo(map);
+  restingfreelancer._icon.classList.add('restingfreelancer');
+  markers.push(restingfreelancer);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
