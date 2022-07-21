@@ -1014,6 +1014,20 @@ $(document).ready(function() {
   var masterofceremonies = L.marker([629.8, 420.5], {title: 'masterofceremonies', icon: npcGenericIcon}).bindTooltip('Master of Ceremonies', {className: 'tooltip'}).addTo(map);
   masterofceremonies._icon.classList.add('masterofceremonies');
   markers.push(masterofceremonies);
+  var lazytamer = L.marker([468.7, 295.4], {title: 'lazytamer', icon: npcCombatIcon}).bindTooltip('Lazy Tamer', {className: 'tooltip'}).addTo(map);
+  lazytamer._icon.classList.add('lazytamer');
+  lazytamer._icon.classList.add('moving');
+  lazytamer._icon.classList.add('combat');
+  markers.push(lazytamer);
+  var bather = L.marker([481.1, 320.7], {title: 'bather', icon: npcCombatIcon}).bindTooltip('Bather', {className: 'tooltip'}).addTo(map);
+  bather._icon.classList.add('bather');
+  bather._icon.classList.add('moving');
+  bather._icon.classList.add('combat');
+  markers.push(bather);
+  var alejandro = L.marker([806, 347], {title: 'alejandro', icon: npcCombatIcon}).bindTooltip('Alejandro', {className: 'tooltip'}).addTo(map);
+  alejandro._icon.classList.add('alejandro');
+  alejandro._icon.classList.add('combat');
+  markers.push(alejandro);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
