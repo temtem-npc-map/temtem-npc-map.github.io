@@ -713,6 +713,9 @@ $(document).ready(function() {
   leka._icon.classList.add('leka');
   leka._icon.classList.add('combat');
   markers.push(leka);
+  var greeter = L.marker([835.19, 809.47], {title: 'greeter', icon: npcGenericIcon}).bindTooltip('Greeter', {className: 'tooltip'}).addTo(map);
+  greeter._icon.classList.add('greeter');
+  markers.push(greeter);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
