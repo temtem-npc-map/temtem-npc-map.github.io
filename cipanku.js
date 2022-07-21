@@ -786,6 +786,15 @@ $(document).ready(function() {
   digitalqa._icon.classList.add('digitalqa');
   digitalqa._icon.classList.add('combat');
   markers.push(digitalqa);
+  var dvonio = L.marker([613.81, 176.48], {title: 'dvonio', icon: npcGenericIcon}).bindTooltip('Dvonio', {className: 'tooltip'}).addTo(map);
+  dvonio._icon.classList.add('dvonio');
+  markers.push(dvonio);
+  var diligenthousemate = L.marker([406.34, 252.24], {title: 'diligenthousemate', icon: npcGenericIcon}).bindTooltip('Diligent Housemate', {className: 'tooltip'}).addTo(map);
+  diligenthousemate._icon.classList.add('diligenthousemate');
+  markers.push(diligenthousemate);
+  var kikillo = L.marker([442, 234.22], {title: 'kikillo', icon: npcGenericIcon}).bindTooltip('Kikillo', {className: 'tooltip'}).addTo(map);
+  kikillo._icon.classList.add('kikillo');
+  markers.push(kikillo);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
