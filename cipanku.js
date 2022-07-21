@@ -798,6 +798,12 @@ $(document).ready(function() {
   var restingfreelancer = L.marker([581, 186], {title: 'restingfreelancer', icon: npcGenericIcon}).bindTooltip('Resting Freelancer', {className: 'tooltip'}).addTo(map);
   restingfreelancer._icon.classList.add('restingfreelancer');
   markers.push(restingfreelancer);
+  var alberto = L.marker([437, 252], {title: 'alberto', icon: npcGenericIcon}).bindTooltip('Alberto', {className: 'tooltip'}).addTo(map);
+  alberto._icon.classList.add('alberto');
+  markers.push(alberto);
+  var dvonio = L.marker([440, 228], {title: 'dvonio', icon: npcGenericIcon}).bindTooltip('Dvonio', {className: 'tooltip'}).addTo(map);
+  dvonio._icon.classList.add('dvonio');
+  markers.push(dvonio);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
