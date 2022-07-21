@@ -793,6 +793,9 @@ $(document).ready(function() {
   chahuatl._icon.classList.add('chahuatl');
   chahuatl._icon.classList.add('combat');
   markers.push(chahuatl);
+  var tiredminer = L.marker([579.41, 534.97], {title: 'tiredminer', icon: npcGenericIcon}).bindTooltip('Tired Miner', {className: 'tooltip'}).addTo(map);
+  tiredminer._icon.classList.add('tiredminer');
+  markers.push(tiredminer);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
