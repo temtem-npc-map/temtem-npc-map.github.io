@@ -702,9 +702,12 @@ $(document).ready(function() {
   var furaha = L.marker([296.3, 535.4], {title: 'furaha', icon: npcGenericIcon}).bindTooltip('Furaha', {className: 'tooltip'}).addTo(map);
   furaha._icon.classList.add('furaha');
   markers.push(furaha);
-  var furaha = L.marker([296.3, 535.4], {title: 'furaha', icon: npcGenericIcon}).bindTooltip('Furaha', {className: 'tooltip'}).addTo(map);
-  furaha._icon.classList.add('furaha');
-  markers.push(furaha)
+  var martin = L.marker([321.75, 426], {title: 'martin', icon: npcGenericIcon}).bindTooltip('Martin', {className: 'tooltip'}).addTo(map);
+  martin._icon.classList.add('martin');
+  markers.push(martin);
+  var zola = L.marker([328.44, 572.75], {title: 'zola', icon: npcGenericIcon}).bindTooltip('Zola', {className: 'tooltip'}).addTo(map);
+  zola._icon.classList.add('zola');
+  markers.push(zola);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
