@@ -560,6 +560,12 @@ $(document).ready(function() {
   ewan._icon.classList.add('ewan');
   ewan._icon.classList.add('moving');
   markers.push(ewan);
+  var imogen = L.marker([442, 252], {title: 'imogen', icon: npcGenericIcon}).bindTooltip('Imogen', {className: 'tooltip'}).addTo(map);
+  imogen._icon.classList.add('imogen');
+  markers.push(imogen);
+  var trixie = L.marker([464, 310], {title: 'trixie', icon: npcGenericIcon}).bindTooltip('Trixie', {className: 'tooltip'}).addTo(map);
+  trixie._icon.classList.add('trixie');
+  markers.push(trixie);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
