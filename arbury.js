@@ -550,6 +550,16 @@ $(document).ready(function() {
   ailsa._icon.classList.add('ailsa');
   ailsa._icon.classList.add('combat');
   markers.push(ailsa);
+  var niall = L.marker([593, 387], {title: 'niall', icon: npcGenericIcon}).bindTooltip('Niall', {className: 'tooltip'}).addTo(map);
+  niall._icon.classList.add('niall');
+  markers.push(niall);
+  var elspeth = L.marker([595.4, 321.5], {title: 'elspeth', icon: npcGenericIcon}).bindTooltip('Elspeth', {className: 'tooltip'}).addTo(map);
+  elspeth._icon.classList.add('elspeth');
+  markers.push(elspeth);
+  var ewan = L.marker([597.8, 350.6], {title: 'ewan', icon: npcMovingIcon}).bindTooltip('Ewan', {className: 'tooltip'}).addTo(map);
+  ewan._icon.classList.add('ewan');
+  ewan._icon.classList.add('moving');
+  markers.push(ewan);
   
   // Use the tool over at https://codepen.io/susanpallmann/full/eYzbOyJ to format entries easier!
   
